@@ -18,7 +18,7 @@ class Books extends Migration
             $table->string('callnumber');
             $table->string('name');
             $table->string('author');
-            $table->string('publicaion');
+            $table->string('publication');
             $table->string('edition');
             $table->integer('loan_number');
             $table->timestamps();

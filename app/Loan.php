@@ -4,9 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Book extends Model
+class Loan extends Model
 {
-    //
     public $timestamps = false;
 
     /**
@@ -14,16 +13,23 @@ class Book extends Model
      *
      * @var array
      */
+    public function book()
+    {
+        return $this->hasOne('App\Book');
+    }
+    public function user()
+    {
+        return $this->hasOne('App\User');
+    }
     protected $fillable = [
-        'id', 'callnumber', 'name', 'author', 'publication', 'edition', 'loan_number', 
+        'loan_number', 'bookid', 'date', 'expire_date', 'user', 
     ];
+
 
     /**
      * The attributes that should be hidden for arrays.
      *
      * @var array
      */
-    protected $hidden = [
-    	'loan_number',
-    ];
+
 }

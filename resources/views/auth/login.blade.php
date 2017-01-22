@@ -1,68 +1,78 @@
-@extends('layouts.app')
+<!DOCTYPE html>
+<html>
 
-@section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Login</div>
-                <div class="panel-body">
-                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
-                        {{ csrf_field() }}
+<head>
 
-                        <div class="form-group{{ $errors->has('regno') ? ' has-error' : '' }}">
-                            <label for="regno" class="col-md-4 control-label">Registration No:</label>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-                            <div class="col-md-6">
-                                <input id="regno" type="regno" class="form-control" name="regno" value="{{ old('regno') }}" required autofocus>
+	<title>Pustok - Login Form</title>
 
-                                @if ($errors->has('regno'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('regno') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
+	<link rel="stylesheet" href="Login/assets/demo.css">
+	<link rel="stylesheet" href="Login/assets/form-login.css">
 
-                        <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                            <label for="password" class="col-md-4 control-label">Password</label>
+</head>
 
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control" name="password" required>
 
-                                @if ($errors->has('password'))
+	<header>
+		<a class="navbar-brand" href="{{ url('/') }}">
+                        IICT SEMINAR LIBRARY
+                    </a>
+    </header>
+    <div class="main-content">
+        <link href="/css/app.css" rel="stylesheet">
+        <!-- You only need this form and the form-login.css -->
+
+        <form class="form-login" method="POST" action="{{ url('/login') }}">
+            {{ csrf_field() }}
+            <div class="form-log-in-with-email">
+
+                <div class="form-white-background">
+
+                    <div class="form-title-row">
+                        <h1>Log in</h1>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Registration No:</span>
+                            <input type="regno" name="regno" value="{{ old('regno') }}" required autofocus>
+                            @if ($errors->has('regno'))
+                                <span class="help-block">
+                                    Ther is no registration key.
+                                </span>
+                            @endif
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Password</span>
+                            <input id="password" type="password" name="password" required>
+                            @if ($errors->has('password'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('password') }}</strong>
                                     </span>
-                                @endif
-                            </div>
-                        </div>
+                            @endif
+                        </label>
+                    </div>
 
-                        <div class="form-group">
-                            <div class="col-md-6 col-md-offset-4">
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : ''}}> Remember Me
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="form-row">
+                        <button type="submit">Log in</button>
+                    </div>
 
-                        <div class="form-group">
-                            <div class="col-md-8 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary">
-                                    Login
-                                </button>
-
-                                <a class="btn btn-link" href="{{ url('/password/reset') }}">
-                                    Forgot Your Password?
-                                </a>
-                            </div>
-                        </div>
-                    </form>
                 </div>
+
+                <a href="{{ url('/password/reset') }}" class="form-forgotten-password">Forgotten password &middot;</a>
+                <a href="{{ url('/register') }}" class="form-create-an-account">Create an account &rarr;</a>
+
             </div>
-        </div>
+
+        </form>
+
     </div>
-</div>
-@endsection
+
+</body>
+
+</html>
