@@ -19,4 +19,15 @@ Route::get('/farhad', function () {
     return view('/WelcomePage/index');
 });
 
+Auth::routes();
 
+// Route::get('/home', 'HomeController@index');
+Route::get('/register', function () {
+    return view('/auth/register');
+});
+
+Route::post('/login', 'HomeController@create_user');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');

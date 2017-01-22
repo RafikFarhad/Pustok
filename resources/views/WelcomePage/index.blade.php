@@ -1,133 +1,268 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
-	<head>
-		<title>Projection by TEMPLATED</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
-		{{ Html::style('assets/css/main.css') }}
-	</head>
-	<body>
+<head>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="WelcomePage/index.blade.php" class="logo"><strong>Projection</strong> by TEMPLATED</a>
-					<nav id="nav">
-						<a href="WelcomePage/index.blade.php">Home</a>
-						<a href="WelcomePage/generic.blade.php">Generic</a>
-						<a href="WelcomePage/elements.blade.php">Elements</a>
-					</nav>
-					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-				</div>
-			</header>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-		<!-- Banner -->
-			<section id="banner">
-				<div class="inner">
-					<header>
-						<h1>Welcome to Projection</h1>
-					</header>
+    <title>Start Bootstrap Theme</title>
 
-					<div class="flex ">
+    <!-- Bootstrap Core CSS -->
+    <link href="WelcomePage/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-						<div>
-							<span class="icon fa-car"></span>
-							<h3>Aliquam</h3>
-							<p>Suspendisse amet ullamco</p>
-						</div>
+    <!-- {{Html::style('WelcomePage/vendor/bootstrap/css/bootstrap.min.css')}}     -->
 
-						<div>
-							<span class="icon fa-camera"></span>
-							<h3>Elementum</h3>
-							<p>Class aptent taciti ad litora</p>
-						</div>
+    <!-- Custom Fonts -->
+    <link href="WelcomePage/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-						<div>
-							<span class="icon fa-bug"></span>
-							<h3>Ultrices</h3>
-							<p>Nulla vitae mauris non felis</p>
-						</div>
+    <!-- Theme CSS -->
+    <link href="WelcomePage/css/agency.min.css" rel="stylesheet">
 
-					</div>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-					<footer>
-						<a href="#" class="button">Get Started</a>
-					</footer>
-				</div>
-			</section>
+</head>
 
+<body id="page-top" class="index">
 
-		<!-- Three -->
-			<section id="three" class="wrapper align-center">
-				<div class="inner">
-					<div class="flex flex-2">
-						<article>
-							<div class="image round">
-								<img src="images/pic01.jpg" alt="Pic 01" />
-							</div>
-							<header>
-								<h3>Lorem ipsum<br /> dolor amet nullam</h3>
-							</header>
-							<p>Morbi in sem quis dui placerat ornare. Pellentesquenisi<br />euismod in, pharetra a, ultricies in diam sed arcu. Cras<br />consequat  egestas augue vulputate.</p>
-							<footer>
-								<a href="#" class="button">Learn More</a>
-							</footer>
-						</article>
-						<article>
-							<div class="image round">
-								<img src="images/pic02.jpg" alt="Pic 02" />
-							</div>
-							<header>
-								<h3>Sed feugiat<br /> tempus adipicsing</h3>
-							</header>
-							<p>Pellentesque fermentum dolor. Aliquam quam lectus<br />facilisis auctor, ultrices ut, elementum vulputate, nunc<br /> blandit ellenste egestagus commodo.</p>
-							<footer>
-								<a href="#" class="button">Learn More</a>
-							</footer>
-						</article>
-					</div>
-				</div>
-			</section>
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">IICT Seminar Library</a>
+            </div>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">About Us</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/login">Log In</a>
+                    </li>
 
-					<h3>Get in touch</h3>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-					<form action="#" method="post">
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome To IICT Seminar Library!</div>
+                <div class="intro-heading">Welcome</div>
+                <a href="#services" class="page-scroll btn btn-xl">Our Services</a>
+            </div>
+        </div>
+    </header>
 
-						<div class="field half first">
-							<label for="name">Name</label>
-							<input name="name" id="name" type="text" placeholder="Name">
-						</div>
-						<div class="field half">
-							<label for="email">Email</label>
-							<input name="email" id="email" type="email" placeholder="Email">
-						</div>
-						<div class="field">
-							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
-						</div>
-						<ul class="actions">
-							<li><input value="Send Message" class="button alt" type="submit"></li>
-						</ul>
-					</form>
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Services</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">E-Commerce</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Responsive Design</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Web Security</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<div class="copyright">
-						&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
-					</div>
+       
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container" align="center">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Team: Day Dreamer</h2>
+                    <h3 class="section-subheading text-muted">Database Lab Project</h3>
+                </div>
+            </div>
+            <div class="row" align="center">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="WelcomePage/img/team/farhad.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Rafik Farhad</h4>
+                        <p class="text-muted">Lead Developer/Designer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="WelcomePage/img/team/alif.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Alif Al Amin</h4>
+                        <p class="text-muted">Lead Developer/Designer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Students of Shahjalal University of Science and Technology.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				</div>
-			</footer>
+        <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Your Website 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-	</body>
+    <!-- jQuery -->
+    <script src="WelcomePage/vendor/jquery/jquery.min.js"></script>
+    
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="WelcomePage/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="WelcomePage/https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="WelcomePage/js/jqBootstrapValidation.js"></script>
+    <script src="WelcomePage/js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="WelcomePage/js/agency.min.js"></script>
+
+</body>
+
 </html>
