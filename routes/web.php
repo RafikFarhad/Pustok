@@ -11,18 +11,18 @@
 |
 */
 
-Route::get('/', function () {
+Route::GET('/', function () {
     return view('welcome');
 });
 
-Route::get('/farhad', function () {
+Route::GET('/demotheme', function () {
     return view('/WelcomePage/index');
 });
 
 Auth::routes();
 
-// Route::get('/home', 'HomeController@index');
-Route::get('/register', function () {
+// Route::GET('/home', 'HomeController@index');
+Route::GET('/register', function () {
     return view('/auth/register');
 });
 
@@ -30,8 +30,17 @@ Route::get('/register', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
-Route::get('/addbook', 'addbookcontroller@index');
-Route::post('/addbook', 'addbookcontroller@savethebook');
+Route::GET('/home', 'HomeController@index');
+Route::GET('/addbook', 'addbookcontroller@index');
+Route::POST('/addbook', 'addbookcontroller@savethebook');
+
+Route::GET('/status', 'statuscontroller@index');
+Route::POST('/status', 'statuscontroller@showstatus');
+
+
+Route::GET('/lendbook', 'lendbookcontroller@index');
+Route::POST('/lendbook', 'lendbookcontroller@showstatusoflendingbook');
+
+
 
 

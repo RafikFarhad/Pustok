@@ -66,6 +66,10 @@
                     <li>
                         <a class="page-scroll" href="/login">Log In</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="/register">Register</a>
+                    </li>
+
 
                 </ul>
             </div>
@@ -79,8 +83,8 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To IICT Seminar Library!</div>
-                <div class="intro-heading">Welcome</div>
-                <a href="#services" class="page-scroll btn btn-xl">Our Services</a>
+                <div class="intro-heading">পুস্তক</div>
+                <a href="/search" class="page-scroll btn btn-xl">Search</a>
             </div>
         </div>
     </header>
@@ -142,7 +146,7 @@
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://fb.com/rafikfarhad"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a>
                             </li>
@@ -157,7 +161,7 @@
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://fb.com/alifalamin1"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a>
                             </li>

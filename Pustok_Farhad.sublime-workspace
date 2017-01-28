@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"loan",
+				"loan_number1"
+			],
+			[
+				"lao",
+				"loan1"
+			],
+			[
 				"uniq",
 				"unique"
 			]
@@ -12,38 +20,19 @@
 	"buffers":
 	[
 		{
-			"contents": "<?php\n\n/*\n|--------------------------------------------------------------------------\n| Web Routes\n|--------------------------------------------------------------------------\n|\n| This file is where you may define all of the routes that are handled\n| by your application. Just tell Laravel the URIs it should respond\n| to using a Closure or controller method. Build something great!\n|\n*/\n\nRoute::get('/', function () {\n    return view('welcome');\n});\n\nRoute::get('/farhad', function () {\n    return view('/WelcomePage/index');\n});\n\nAuth::routes();\n\n// Route::get('/home', 'HomeController@index');\nRoute::get('/register', function () {\n    return view('/auth/register');\n});\n\nRoute::post('/login', 'HomeController@create_user');\n\nAuth::routes();\n\nRoute::get('/home', 'HomeController@index');\n",
 			"file": "routes/web.php",
-			"file_size": 790,
-			"file_write_time": 131295110373034291,
 			"settings":
 			{
-				"buffer_size": 790,
+				"buffer_size": 849,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<?php\n\nnamespace App\\Http\\Controllers;\n\nuse Illuminate\\Http\\Request;\n\nclass HomeController extends Controller\n{\n    /**\n     * Create a new controller instance.\n     *\n     * @return void\n     */\n    public function __construct()\n    {\n        $this->middleware('auth');\n    }\n\n    /**\n     * Show the application dashboard.\n     *\n     * @return \\Illuminate\\Http\\Response\n     */\n    public function index()\n    {\n        return view('home');\n    }\n}\n",
-			"file": "app/Http/Controllers/HomeController.php",
-			"file_size": 452,
-			"file_write_time": 131295158146298374,
+			"file": "app/Loan.php",
 			"settings":
 			{
-				"buffer_size": 452,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n    <!-- CSRF Token -->\n    <meta name=\"csrf-token\" content=\"{{ csrf_token() }}\">\n\n    <title>{{ config('app.name', 'IICT Seminar Library') }}</title>\n\n    <!-- Styles -->\n    <link href=\"/css/app.css\" rel=\"stylesheet\">\n\n    <!-- Scripts -->\n    <script>\n        window.Laravel = <?php echo json_encode([\n            'csrfToken' => csrf_token(),\n        ]); ?>\n    </script>\n</head>\n<body>\n    <div id=\"app\">\n        <nav class=\"navbar navbar-default navbar-static-top\">\n            <div class=\"container\">\n                <div class=\"navbar-header\">\n\n                    <!-- Collapsed Hamburger -->\n                    <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#app-navbar-collapse\">\n                        <span class=\"sr-only\">Toggle Navigation</span>\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                    </button>\n\n                    <!-- Branding Image -->\n                    <a class=\"navbar-brand\" href=\"{{ url('/') }}\">\n                        IICT SEMINAR LIBRARY\n                    </a>\n                </div>\n\n                <div class=\"collapse navbar-collapse\" id=\"app-navbar-collapse\">\n                    <!-- Left Side Of Navbar -->\n                    <ul class=\"nav navbar-nav\">\n                        &nbsp;\n                    </ul>\n\n                    <!-- Right Side Of Navbar -->\n                    <ul class=\"nav navbar-nav navbar-right\">\n                        <!-- Authentication Links -->\n                        @if (Auth::guest())\n                            <li><a href=\"{{ url('/login') }}\">Login</a></li>\n                            <li><a href=\"{{ url('/register') }}\">Register</a></li>\n                        @else\n                            @if(Auth::user()->user_type!='normal')\n\n                                <li class=\"dropdown\">\n                                    <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">\n                                        Root Access <span class=\"caret\"></span>\n                                    </a>\n\n                                    <ul class=\"dropdown-menu\" role=\"menu\">\n                                        <li>\n                                            <a href=\"{{ url('/addbook') }}\">\n                                                Add Book\n                                            </a>\n                                        </li>\n\n                                        <li>\n                                            <a href=\"{{ url('/lendbook') }}\">\n                                                Lend Book\n                                            </a>\n                                        </li>\n                                    </ul>\n\n                                </li>\n\n                                <li class=\"dropdown\">\n                                    <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">\n                                        {{ Auth::user()->name }} <span class=\"caret\"></span>\n                                    </a>\n\n                                    <ul class=\"dropdown-menu\" role=\"menu\">\n                                        <li>\n                                            <a href=\"{{ url('/logout') }}\"\n                                                onclick=\"event.preventDefault();\n                                                         document.getElementById('logout-form').submit();\">\n                                                Logout\n                                            </a>\n\n                                            <form id=\"logout-form\" action=\"{{ url('/logout') }}\" method=\"POST\" style=\"display: none;\">\n                                                {{ csrf_field() }}\n                                            </form>\n                                        </li>\n                                    </ul>\n                                </li>\n\n                            @else\n                                <li class=\"dropdown\">\n                                    <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">\n                                        {{ Auth::user()->name }} <span class=\"caret\"></span>\n                                    </a>\n\n                                    <ul class=\"dropdown-menu\" role=\"menu\">\n                                         <li>\n                                            <a href=\"{{ url('/mystatus') }}\">\n                                                My Status\n                                            </a>\n                                        </li>\n                                        <li>\n                                            <a href=\"{{ url('/logout') }}\"\n                                                onclick=\"event.preventDefault();\n                                                         document.getElementById('logout-form').submit();\">\n                                                Logout\n                                            </a>\n                                            <form id=\"logout-form\" action=\"{{ url('/logout') }}\" method=\"POST\" style=\"display: none;\">\n                                                {{ csrf_field() }}\n                                            </form>\n                                        </li>\n                                    </ul>\n                                </li>\n                            @endif\n                            \n                            \n                        @endif\n                    </ul>\n                </div>\n            </div>\n        </nav>\n\n        @yield('content')\n    </div>\n\n    <!-- Scripts -->\n    <script src=\"/js/app.js\"></script>\n</body>\n</html>\n",
-			"file": "resources/views/layouts/app.blade.php",
-			"file_size": 6136,
-			"file_write_time": 131295152058124384,
-			"settings":
-			{
-				"buffer_size": 6136,
-				"encoding": "UTF-8",
+				"buffer_size": 577,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,29 +40,34 @@
 			"file": "resources/views/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 411,
+				"buffer_size": 1443,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<?php\n\nnamespace Illuminate\\Foundation\\Auth;\n\nuse Illuminate\\Http\\Request;\nuse Illuminate\\Support\\Facades\\Auth;\nuse Illuminate\\Support\\Facades\\Lang;\n\ntrait AuthenticatesUsers\n{\n    use RedirectsUsers, ThrottlesLogins;\n\n    /**\n     * Show the application's login form.\n     *\n     * @return \\Illuminate\\Http\\Response\n     */\n    public function showLoginForm()\n    {\n        return view('auth.login');\n    }\n\n    /**\n     * Handle a login request to the application.\n     *\n     * @param  \\Illuminate\\Http\\Request  $request\n     * @return \\Illuminate\\Http\\Response\n     */\n    public function login(Request $request)\n    {\n        $this->validateLogin($request);\n\n        // If the class is using the ThrottlesLogins trait, we can automatically throttle\n        // the login attempts for this application. We'll key this by the username and\n        // the IP address of the client making these requests into this application.\n        if ($this->hasTooManyLoginAttempts($request)) {\n            $this->fireLockoutEvent($request);\n\n            return $this->sendLockoutResponse($request);\n        }\n\n        if ($this->attemptLogin($request)) {\n            return $this->sendLoginResponse($request);\n        }\n\n        // If the login attempt was unsuccessful we will increment the number of attempts\n        // to login and redirect the user back to the login form. Of course, when this\n        // user surpasses their maximum number of attempts they will get locked out.\n        $this->incrementLoginAttempts($request);\n\n        return $this->sendFailedLoginResponse($request);\n    }\n\n    /**\n     * Validate the user login request.\n     *\n     * @param  \\Illuminate\\Http\\Request  $request\n     * @return void\n     */\n    protected function validateLogin(Request $request)\n    {\n        $this->validate($request, [\n            $this->username() => 'required', 'password' => 'required',\n        ]);\n    }\n\n    /**\n     * Attempt to log the user into the application.\n     *\n     * @param  \\Illuminate\\Http\\Request  $request\n     * @return bool\n     */\n    protected function attemptLogin(Request $request)\n    {\n        return $this->guard()->attempt(\n            $this->credentials($request), $request->has('remember')\n        );\n    }\n\n    /**\n     * Get the needed authorization credentials from the request.\n     *\n     * @param  \\Illuminate\\Http\\Request  $request\n     * @return array\n     */\n    protected function credentials(Request $request)\n    {\n        return $request->only($this->username(), 'password');\n    }\n\n    /**\n     * Send the response after the user was authenticated.\n     *\n     * @param  \\Illuminate\\Http\\Request  $request\n     * @return \\Illuminate\\Http\\Response\n     */\n    protected function sendLoginResponse(Request $request)\n    {\n        $request->session()->regenerate();\n\n        $this->clearLoginAttempts($request);\n\n        return $this->authenticated($request, $this->guard()->user())\n                ?: redirect()->intended($this->redirectPath());\n    }\n\n    /**\n     * The user has been authenticated.\n     *\n     * @param  \\Illuminate\\Http\\Request  $request\n     * @param  mixed  $user\n     * @return mixed\n     */\n    protected function authenticated(Request $request, $user)\n    {\n        //\n        \n    }\n\n    /**\n     * Get the failed login response instance.\n     *\n     * @param  \\Illuminate\\Http\\Request  $request\n     * @return \\Illuminate\\Http\\RedirectResponse\n     */\n    protected function sendFailedLoginResponse(Request $request)\n    {\n        return redirect()->back()\n            ->withInput($request->only($this->username(), 'remember'))\n            ->withErrors([\n                $this->username() => Lang::get('auth.failed'),\n            ]);\n    }\n\n    /**\n     * Get the login username to be used by the controller.\n     *\n     * @return string\n     */\n    public function username()\n    {\n        return 'email';\n    }\n\n    /**\n     * Log the user out of the application.\n     *\n     * @param \\Illuminate\\Http\\Request  $request\n     * @return \\Illuminate\\Http\\Response\n     */\n    public function logout(Request $request)\n    {\n        $this->guard()->logout();\n\n        $request->session()->flush();\n\n        $request->session()->regenerate();\n\n        return redirect('/');\n    }\n\n    /**\n     * Get the guard to be used during authentication.\n     *\n     * @return \\Illuminate\\Contracts\\Auth\\StatefulGuard\n     */\n    protected function guard()\n    {\n        return Auth::guard();\n    }\n}\n",
-			"file": "vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
-			"file_size": 4454,
-			"file_write_time": 131295160229049766,
+			"file": "serve",
 			"settings":
 			{
-				"buffer_size": 4454,
+				"buffer_size": 30,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n        <title>পুস্তক</title>\n\n        <!-- Fonts -->\n        <link href=\"https://fonts.googleapis.com/css?family=Raleway:100,600\" rel=\"stylesheet\" type=\"text/css\">\n\n        <!-- Styles -->\n        <style>\n            html, body {\n                background-color: #fff;\n                color: #636b6f;\n                font-family: 'Raleway', sans-serif;\n                font-weight: 100;\n                height: 100vh;\n                margin: 0;\n            }\n\n            .full-height {\n                height: 100vh;\n            }\n\n            .flex-center {\n                align-items: center;\n                display: flex;\n                justify-content: center;\n            }\n\n            .position-ref {\n                position: relative;\n            }\n\n            .top-right {\n                position: absolute;\n                right: 10px;\n                top: 18px;\n            }\n\n            .content {\n                text-align: center;\n            }\n\n            .title {\n                font-size: 84px;\n            }\n\n            .links > a {\n                color: #636b6f;\n                padding: 0 25px;\n                font-size: 12px;\n                font-weight: 600;\n                letter-spacing: .1rem;\n                text-decoration: none;\n                text-transform: uppercase;\n            }\n\n            .m-b-md {\n                margin-bottom: 30px;\n            }\n        </style>\n    </head>\n    <body>\n        <div class=\"flex-center position-ref full-height\">\n            @if (Route::has('login'))\n                <div class=\"top-right links\">\n                    <a href=\"{{ url('/login') }}\">Login</a>\n                    <a href=\"{{ url('/register') }}\">Register</a>\n                </div>\n            @endif\n\n            <div class=\"content\">\n                <div class=\"title m-b-md\">\n                    পুস্তক\n                </div>\n\n                <div class=\"links\">\n                   <!--  <a href=\"https://laravel.com/docs\">Documentation</a>\n                    <a href=\"https://laracasts.com\">Laracasts</a>\n                    <a href=\"https://laravel-news.com\">News</a> -->\n                    <a href=\"/farhad\">farhad</a>\n                    <a href=\"https://github.com/RafikFarhad/Pustok\">GitHub</a>\n                </div>\n            </div>\n        </div>\n    </body>\n</html>\n",
-			"file": "resources/views/welcome.blade.php",
-			"file_size": 2578,
-			"file_write_time": 131295164528632491,
+			"file": "resources/views/WelcomePage/index.blade.php",
 			"settings":
 			{
-				"buffer_size": 2554,
+				"buffer_size": 12572,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/AddBook/addbook.blade.php",
+			"settings":
+			{
+				"buffer_size": 2998,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -86,12 +80,12 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -111,26 +105,48 @@
 	},
 	"expanded_folders":
 	[
+		"/home/looser/Desktop/Pustok",
+		"/home/looser/Desktop/Pustok/app",
+		"/home/looser/Desktop/Pustok/database",
+		"/home/looser/Desktop/Pustok/database/migrations",
+		"/home/looser/Desktop/Pustok/public",
+		"/home/looser/Desktop/Pustok/resources",
+		"/home/looser/Desktop/Pustok/resources/views",
+		"/home/looser/Desktop/Pustok/resources/views/AddBook",
+		"/home/looser/Desktop/Pustok/resources/views/WelcomePage",
+		"/home/looser/Desktop/Pustok/resources/views/layouts",
+		"/home/looser/Desktop/Pustok/routes"
 	],
 	"file_history":
 	[
+		"/home/looser/Desktop/Jan's LightOJ __ Categorized Problems.html",
+		"/home/looser/Desktop/Jan's LightOJ __ User Statistics __ #define_SUST (22311).html",
+		"/home/looser/Desktop/Pustok/resources/views/layouts/app.blade.php",
+		"/home/looser/Desktop/Pustok/app/Loan.php",
+		"/home/looser/Desktop/Pustok/database/migrations/2017_01_22_025201_loans.php",
+		"/home/looser/Desktop/Pustok/resources/views/home.blade.php",
+		"/home/looser/Desktop/Pustok/resources/views/WelcomePage/index.blade.php",
+		"/home/looser/Desktop/Pustok/app/Http/Controllers/addbookcontroller.php",
+		"/home/looser/Desktop/Pustok/resources/views/auth/login.blade.php",
+		"/home/looser/Desktop/Pustok/resources/views/AddBook/addbook.blade.php",
+		"/home/looser/Desktop/Pustok/app/Http/Controllers/HomeController.php",
+		"/home/looser/Desktop/Pustok/app/Book.php",
+		"/home/looser/Desktop/Pustok/database/migrations/2017_01_21_212657_books.php",
+		"/home/looser/Desktop/Pustok/public/Login/assets/form-login.css",
+		"/home/looser/Desktop/Pustok/public/Login/assets/demo.css",
+		"/home/looser/Desktop/Pustok/public/Login/assets/form-basic.css",
+		"/home/looser/Desktop/Pustok/public/Login/assets/form-labels-on-top.css",
+		"/home/looser/Desktop/Pustok/.env",
+		"/home/looser/Desktop/Pustok/resources/views/welcome.blade.php",
 		"/home/looser/Desktop/Pustok/app/Http/Controllers/Auth/RegisterController.php",
 		"/home/looser/Desktop/Pustok/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
 		"/home/looser/Desktop/Pustok/app/Http/Controllers/Auth/LoginController.php",
-		"/home/looser/Desktop/Pustok/resources/views/auth/login.blade.php",
-		"/home/looser/Desktop/Pustok/resources/views/welcome.blade.php",
 		"/home/looser/Desktop/Pustok/resources/views/auth/register.blade.php",
-		"/home/looser/Desktop/Pustok/app/Http/Controllers/HomeController.php",
 		"/home/looser/Desktop/Pustok/database/migrations/2017_01_21_212158_users.php",
-		"/home/looser/Desktop/Pustok/database/migrations/2017_01_21_212657_books.php",
 		"/home/looser/Desktop/Pustok/app/User.php",
-		"/home/looser/Desktop/Pustok/app/Book.php",
 		"/home/looser/Desktop/Pustok/config/database.php",
-		"/home/looser/Desktop/Pustok/.env",
 		"/home/looser/Desktop/Pustok/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/home/looser/Desktop/Pustok/database/migrations/2017_01_21_211636_users.php",
-		"/home/looser/Desktop/Pustok/resources/views/WelcomePage/index.blade.php",
-		"/home/looser/Desktop/Pustok/resources/views/layouts/app.blade.php",
 		"/home/looser/Desktop/Pustok/.env.example",
 		"/home/rafikfarhad/Desktop/Pustok/resources/views/WelcomePage/elements.blade.php",
 		"/home/rafikfarhad/Desktop/Pustok/resources/views/WelcomePage/index.blade.php",
@@ -148,6 +164,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"/home/looser/Desktop/Pustok/vendor/laravel/framework/src/Illuminate"
 		]
 	},
 	"find_state":
@@ -155,6 +172,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Happy",
+			"Auth",
 			"home",
 			"ho",
 			"home",
@@ -202,15 +221,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 790,
+						"buffer_size": 849,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								674,
-								674
+								464,
+								464
 							]
 						],
 						"settings":
@@ -218,57 +237,27 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 45.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/Http/Controllers/HomeController.php",
-					"semi_transient": false,
+					"file": "app/Loan.php",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 452,
+						"buffer_size": 577,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								414,
-								414
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "resources/views/layouts/app.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6136,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1355,
-								1355
+								402,
+								402
 							]
 						],
 						"settings":
@@ -285,20 +274,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "resources/views/home.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 411,
+						"buffer_size": 1443,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								391,
-								391
+								1248,
+								1248
 							]
 						],
 						"settings":
@@ -311,24 +300,52 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "serve",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
-					"semi_transient": true,
+					"file": "resources/views/WelcomePage/index.blade.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4454,
+						"buffer_size": 12572,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								26,
-								26
+								6883,
+								6883
 							]
 						],
 						"settings":
@@ -338,27 +355,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 315.0,
+						"translation.y": 2115.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "resources/views/welcome.blade.php",
+					"file": "resources/views/AddBook/addbook.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2554,
+						"buffer_size": 2998,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2076,
-								2076
+								2878,
+								2878
 							]
 						],
 						"settings":
@@ -368,7 +385,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 810.0,
+						"translation.y": 1022.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -430,12 +447,12 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{

@@ -82,7 +82,7 @@
                    <!--  <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a> -->
-                    <a href="/farhad">farhad</a>
+                    <a href="/demotheme">demotheme</a>
                     <a href="https://github.com/RafikFarhad/Pustok">GitHub</a>
                 </div>
             </div>

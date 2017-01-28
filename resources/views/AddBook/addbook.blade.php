@@ -14,17 +14,14 @@
 </head>
 
 
-	<header>
-		<h1>Add Book</h1>
-    </header>
-
-
-
     <div class="main-content">
 
         <!-- You only need this form and the form-labels-on-top.css -->
 
-        <form class="form-labels-on-top" method="post" action="/addbook">
+        @if(Auth::user()->user_type!='normal')
+
+        
+                <form class="form-labels-on-top" method="post" action="/addbook">
 
             {{ csrf_field() }}
 
@@ -92,6 +89,19 @@
             <hidden name="loan_number" value="0" />
 
         </form>
+
+        @else
+
+            <div class="form-row">
+                <label>
+                    <span>No access</span>
+                </label>
+            </div>
+
+
+        @endif
+
+        
 
     </div>
 
