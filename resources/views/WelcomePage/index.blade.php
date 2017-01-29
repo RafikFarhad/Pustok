@@ -82,7 +82,7 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To IICT Seminar Library!</div>
+                <div class="intro-lead-in"> <font color="black"> Welcome To IICT Seminar Library! </font> </div>
                 <div class="intro-heading">পুস্তক</div>
                 <a href="/search" class="page-scroll btn btn-xl">Search</a>
             </div>
