@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'IICT Seminar Library') }}</title>
+    <title>IICT Seminar Library</title>
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
@@ -35,7 +35,7 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
+                    <a class="navbar-brand" href="{{ url('/home') }}">
                         IICT SEMINAR LIBRARY
                     </a>
                 </div>
@@ -55,22 +55,30 @@
                         @else
                             @if(Auth::user()->user_type!='normal')
 
+                                <li>
+                                    <a href="{{ url('/home') }}">
+                                        Home
+                                    </a>
+                                </li>
+
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                         Root Access <span class="caret"></span>
                                     </a>
 
                                     <ul class="dropdown-menu" role="menu">
+                                        
                                         <li>
-                                            <a href="{{ url('/addbook') }}">
-                                                Add Book
-                                            </a>
+                                            <a href="/lendbook">Lend Book</a>
                                         </li>
-
                                         <li>
-                                            <a href="{{ url('/lendbook') }}">
-                                                Lend Book
-                                            </a>
+                                            <a href="/recievebook">Receive Book</a>
+                                        </li>
+                                        <li>
+                                            <a href="/status">Check User Status</a>
+                                        </li>
+                                        <li>
+                                            <a href="/addbook">Add Book</a>
                                         </li>
                                     </ul>
 

@@ -78,7 +78,7 @@
             <div class="form-row">
                 <label>
                     <span>Serial Number</span>
-                    <input type="text" name="id" value="NULL" required="">
+                    <input type="text" name="id" required="">
                 </label>
             </div>
 

@@ -22,7 +22,7 @@ class Loan extends Model
         return $this->hasOne('App\User');
     }
     protected $fillable = [
-        'loan_number', 'bookid', 'date', 'expire_date', 'user', 
+        'loan_number', 'bookid', 'date', 'expire_date', 'user', 'retturn', 
     ];
 
 

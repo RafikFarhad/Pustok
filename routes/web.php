@@ -41,6 +41,11 @@ Route::POST('/status', 'statuscontroller@showstatus');
 Route::GET('/lendbook', 'lendbookcontroller@index');
 Route::POST('/lendbook', 'lendbookcontroller@showstatusoflendingbook');
 
+Route::GET('/recievebook', 'recievebookcontroller@index');
+Route::POST('/recievebook', 'recievebookcontroller@recieveacknowledgment');
 
 
+Route::GET('/logout', 'HomeController@index');
+
+Route::GET('/usercreate', 'Helper@index');
 

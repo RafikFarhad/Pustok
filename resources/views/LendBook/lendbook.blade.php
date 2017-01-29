@@ -77,7 +77,7 @@
                         $temp_loan = DB::table('loans')->where('bookid', $temp_book->id)->first();
                     ?>
                     <!-- CHECK IF THAT BOOM IS TAKEN BY OTHERS -->
-                    @if($temp_loan!=NULL)
+                    @if($temp_loan!=NULL && $temp_loan->retturn==1)
                         <h2> This book is taken by others </h2>
                     <!-- OTHERWISE GIVE THIS BOOK -->
                     @else
@@ -90,6 +90,7 @@
                             'date' => date("Y/m/d"),
                             'expiry_date' => date('Y/m/d', strtotime('+5 days')),
                             'user' => $request->regno,
+                            'retturn' => 1,
                             ]);
 
                         $temp_loan = DB::table('loans')->where('bookid', $temp_book->id)->first();

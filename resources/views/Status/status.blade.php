@@ -63,8 +63,12 @@
                         $single_loan = DB::table('loans')->where('loan_number', $loan1)->first();
                         echo $book->name . "<br>" . $book->author . "<br>";
                         echo "Issue date: ". $single_loan->date;
-                        echo "<br> Expiry date: ". $single_loan->expiry_date;
+                        echo "<br> Expiry date: ". $single_loan->expiry_date ."<br>";
                     }
+                    ?>
+                    <hr> 
+
+                    <?php
                     if($loan2!=0)
                     {
                         $book = DB::table('books')->where('id', $loan2)->first();

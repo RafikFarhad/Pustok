@@ -16,18 +16,24 @@
                 <div class='container'>
 
                     @if(Auth::user()->user_type!='normal')
-                         <div class='container'>
-                            <h1>Hello Admin</h1>
-                        </div>
+                    <div class='container'>
+                        <h3>Hello Admin</h3>
+                    </div>
+                    <div class="links">
 
-                        <div class="links">
-                        <a href="/addbook">Add Book</a>
-                        <br> </br>
-                        <a href="/lendbook">Lend Book</a>
-                        <br> </br>
-                        <a href="/status">Check User Status</a>
-
-                </div>
+                        <li>
+                        <a href="{{ url('/lendbook') }}">Lend Book</a>
+                        </li>
+                        <li>
+                            <a href="{{ url('/recievebook') }}">Receive Book</a>
+                        </li>
+                        <li>
+                            <a href="{{ url('/status') }}">Check User Status</a>
+                        </li>
+                        <li>
+                            <a href="{{ url('/addbook') }}">Add Book</a>
+                        </li>
+                    </div>
 
                     @else
                     <div class='container'>

@@ -15,10 +15,12 @@ class Loans extends Migration
     {
         Schema::create('loans', function (Blueprint $table) {
             $table->increments('loan_number')->unique()->index();
-            $table->string('bookid')->unique();
+            $table->string('bookid');
             $table->date('date');
             $table->date('expiry_date');
             $table->string('user');
+            $table->boolean('retturn');
+
         });
     }
 

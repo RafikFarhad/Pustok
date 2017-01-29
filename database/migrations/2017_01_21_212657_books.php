@@ -13,7 +13,7 @@ class Books extends Migration
      */
     public function up()
     {
-         Schema::create('books', function (Blueprint $table) {
+        Schema::create('books', function (Blueprint $table) {
             $table->string('id')->unique();
             $table->string('callnumber');
             $table->string('name');
