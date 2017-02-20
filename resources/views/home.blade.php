@@ -22,7 +22,7 @@
                     <div class="links">
 
                         <li>
-                        <a href="{{ url('/lendbook') }}">Lend Book</a>
+                            <a href="{{ url('/lendbook') }}">Lend Book</a>
                         </li>
                         <li>
                             <a href="{{ url('/recievebook') }}">Receive Book</a>
@@ -32,6 +32,15 @@
                         </li>
                         <li>
                             <a href="{{ url('/addbook') }}">Add Book</a>
+                        </li>
+                        <li>
+                            <a href="/expired">Expired</a>
+                        </li>
+                        <li>
+                            <a href="/loanhistory">Loan History</a>
+                        </li>
+                        <li>
+                            <a href="/registeruser">Register</a>
                         </li>
                     </div>
 

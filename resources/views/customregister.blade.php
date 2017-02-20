@@ -5,10 +5,39 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Register</div>
+                <div class="panel-heading">Register new user</div>
                 <div class="panel-body">
-                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/home') }}">
+                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/registeruser') }}">
                         {{ csrf_field() }}
+
+                        @if($message = Session::get('success'))
+
+                            <div class="alert alert-success">
+
+                                <p>
+                                    {{ $message }}
+                                </p>
+                                
+                            </div>
+
+                        @endif
+
+                        @if($message = Session::get('Warning'))
+
+                            <div class="alert alert-warning">
+
+                                <p>
+                                    {{ $message }}
+                                </p>
+                                
+                            </div>
+
+                        @endif
+
+
+
+
+
 
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
                             <label for="name" class="col-md-4 control-label">Name</label>
@@ -52,13 +81,9 @@
                             </div>
                         </div>
 
-                        <div class="form-group">
-                            <label for="password-confirm" class="col-md-4 control-label">Confirm Password</label>
-
-                            <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
-                            </div>
-                        </div>
+                        
+                        <input type="hidden" name="loan_number1" value="0">
+                        <input type="hidden" name="loan_number2" value="0">
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">

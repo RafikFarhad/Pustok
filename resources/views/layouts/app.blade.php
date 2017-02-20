@@ -35,7 +35,7 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/home') }}">
+                    <a class="navbar-brand" href="{{ url('/') }}">
                         IICT SEMINAR LIBRARY
                     </a>
                 </div>
@@ -80,6 +80,18 @@
                                         <li>
                                             <a href="/addbook">Add Book</a>
                                         </li>
+                                        <li>
+                                            <a href="/expired">Expired</a>
+                                        </li>
+                                        <li>
+                                            <a href="/loanhistory">Loan History</a>
+                                        </li>
+                                        <li>
+                                            <a href="/registeruser">Register</a>
+                                        </li>
+
+
+
                                     </ul>
 
                                 </li>

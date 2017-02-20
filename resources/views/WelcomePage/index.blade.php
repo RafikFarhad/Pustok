@@ -63,12 +63,89 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="/login">Log In</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="/register">Register</a>
-                    </li>
+                    @if (Auth::guest())
+                            <li><a href="{{ url('/login') }}">Login</a></li>
+                            {{-- <li><a href="{{ url('/register') }}">Register</a></li> --}}
+                        @else
+                            @if(Auth::user()->user_type!='normal')
+
+                                <li>
+                                    <a href="{{ url('/home') }}">
+                                        Home
+                                    </a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                        Root Access <span class="caret"></span>
+                                    </a>
+
+                                    <ul class="dropdown-menu" role="menu">
+                                        
+                                        <li>
+                                            <a style="color:blue;" href="/lendbook">Lend Book</a>
+                                        </li>
+                                        <li>
+                                            <a style="color:blue;" href="/recievebook">Receive Book</a>
+                                        </li>
+                                        <li>
+                                            <a style="color:blue;" href="/status">Check User Status</a>
+                                        </li>
+                                        <li>
+                                            <a style="color:blue;" href="/addbook">Add Book</a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                        {{ Auth::user()->name }} <span class="caret"></span>
+                                    </a>
+
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li>
+                                            <a style="color:blue;" href="{{ url('/logout') }}"
+                                                onclick="event.preventDefault();
+                                                         document.getElementById('logout-form').submit();">
+                                                Logout
+                                            </a>
+
+                                            <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
+                                                {{ csrf_field() }}
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            @else
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                        {{ Auth::user()->name }} <span class="caret"></span>
+                                    </a>
+
+                                    <ul class="dropdown-menu" role="menu">
+                                         <li>
+                                            <a href="{{ url('/mystatus') }}">
+                                                My Status
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a style="color:blue;" href="{{ url('/logout') }}"
+                                                onclick="event.preventDefault();
+                                                         document.getElementById('logout-form').submit();">
+                                                Logout
+                                            </a>
+                                            <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
+                                                {{ csrf_field() }}
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </li>
+                            @endif
+                            
+                            
+                        @endif
 
 
                 </ul>
@@ -82,8 +159,8 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in"> <font color="black"> Welcome To IICT Seminar Library! </font> </div>
-                <div class="intro-heading">পুস্তক</div>
+                <div class="intro-lead-in"> <font color="purple"> Welcome To IICT Seminar Library! </font> </div>
+                <div class="intro-heading" style="color:black;" >পুস্তক</div>
                 <a href="/search" class="page-scroll btn btn-xl">Search</a>
             </div>
         </div>

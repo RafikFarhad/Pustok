@@ -12,6 +12,7 @@
 */
 
 Route::GET('/', function () {
+	return view('/WelcomePage/index');
     return view('welcome');
 });
 
@@ -21,16 +22,11 @@ Route::GET('/demotheme', function () {
 
 Auth::routes();
 
-// Route::GET('/home', 'HomeController@index');
-Route::GET('/register', function () {
-    return view('/auth/register');
-});
-
-
-
-Auth::routes();
-
 Route::GET('/home', 'HomeController@index');
+Route::GET('/registeruser', 'customregister@index');
+Route::POST('/registeruser', 'customregister@createuser');
+
+
 Route::GET('/addbook', 'addbookcontroller@index');
 Route::POST('/addbook', 'addbookcontroller@savethebook');
 
@@ -48,4 +44,10 @@ Route::POST('/recievebook', 'recievebookcontroller@recieveacknowledgment');
 Route::GET('/logout', 'HomeController@index');
 
 Route::GET('/usercreate', 'Helper@index');
+
+Route::GET('/expired', 'ExpiredPageController@index');
+Route::GET('/loanhistory', 'ExpiredPageController@loanhistory');
+
+
+
 
