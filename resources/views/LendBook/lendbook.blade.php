@@ -45,6 +45,15 @@
                 </div>
 
                 <div class="form-row">
+                    <label>
+                        <span>Number of days: </span>
+                        <input type="number" name="number_of_day" required="" value="5">
+                    </label>
+                </div>
+
+
+
+                <div class="form-row">
                     <button type="submit">Add</button>
                 </div>
 
@@ -88,7 +97,7 @@
                             [
                             'bookid' => $request->book_id , 
                             'date' => date("Y/m/d"),
-                            'expiry_date' => date('Y/m/d', strtotime('+5 days')),
+                            'expiry_date' => date('Y/m/d', strtotime('+'.$request->number_of_day.' days')),
                             'user' => $request->regno,
                             'retturn' => 1,
                             ]);

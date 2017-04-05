@@ -22,6 +22,8 @@ Route::GET('/demotheme', function () {
 
 Auth::routes();
 
+Route::GET('/search', 'SearchController@index');
+
 Route::GET('/home', 'HomeController@index');
 Route::GET('/registeruser', 'customregister@index');
 Route::POST('/registeruser', 'customregister@createuser');
