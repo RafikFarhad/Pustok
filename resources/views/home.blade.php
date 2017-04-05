@@ -47,35 +47,39 @@
                     @else
                     <div class='container'>
                         <div class='page-header'>
-                            @if(Auth::user()->loan_number1=='NULL' && Auth::user()->loan_number2=='NULL')
+                        
+                            @if(($all["single_loan1"]==NULL ) && ($all["single_loan2"]==NULL ))
                             <h2> Wow, you have nothing from us! </h2>
+                            
                             @else
                             <h2> All Books You have borrowed: </h2>
                             <?php
-                            $loan1 = Auth::user()->loan_number1;
-                            $loan2 = Auth::user()->loan_number2;
-                            if($loan1!=0)
+                            
+                            if($all["single_loan1"]!=NULL)
                             {
-                                $book = DB::table('books')->where('id', $loan1)->first();
-                                $single_loan = DB::table('loans')->where('loan_number', $loan1)->first();
+                                $book = $all["book1"];
+                                $single_loan = $all["single_loan1"];
+                            
                                 echo $book->name . "<br>" . $book->author . "<br>";
                                 echo "Issue date: ". $single_loan->date;
-                                echo "<br> Expiry date: ". $single_loan->expiry_date;
+                                echo "<br> Expiry date: ". $single_loan->expiry_date. "<br>". "<br>";
                             }
-                            if($loan2!=0)
+                            if($all["single_loan1"]!=NULL)
                             {
-                                $book = DB::table('books')->where('id', $loan2)->first();
-                                $single_loan = DB::table('loans')->where('loan_number', $loan2)->first();
+                                $book = $all["book1"];
+                                $single_loan = $all["single_loan1"];
+                                
                                 echo $book->name . "<br>" . $book->author . "<br>";
                                 echo "Issue date: ". $single_loan->date;
                                 echo "<br> Expiry date: ". $single_loan->expiry_date;
                             }
                             ?>
+                            @endif
                         </div>
                     </div>
 
 
-                    @endif
+                    
                     @endif
                 </div>
 

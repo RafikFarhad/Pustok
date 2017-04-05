@@ -25,6 +25,8 @@ Auth::routes();
 Route::GET('/search', 'SearchController@index');
 
 Route::GET('/home', 'HomeController@index');
+Route::POST('/home', 'HomeController@lendinfo');
+
 Route::GET('/registeruser', 'customregister@index');
 Route::POST('/registeruser', 'customregister@createuser');
 

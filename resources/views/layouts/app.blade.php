@@ -124,8 +124,8 @@
 
                                     <ul class="dropdown-menu" role="menu">
                                          <li>
-                                            <a href="{{ url('/mystatus') }}">
-                                                My Status
+                                            <a href="{{ url('/home') }}">
+                                                Home
                                             </a>
                                         </li>
                                         <li>
