@@ -32,7 +32,7 @@
                 
                 <div class="form-row">
                     <label>
-                        <span>Book Serial No: </span>
+                        <span>Book Access No: </span>
                         <input type="text" name="book_id" required="">
                     </label>
                 </div>
@@ -84,7 +84,8 @@
                             DB::table('loans')
                                 ->where('bookid', $temp_book->id)->where('retturn', 1)
                                 ->update(['retturn' => 0 ]);
-
+                            DB::table('books')
+                                ->where('id', $temp_book->id)->update(['loan_number' => 0 ]);
                         }
                         else
                         {
@@ -94,6 +95,8 @@
                             DB::table('loans')
                                 ->where('bookid', $temp_book->id)->where('retturn', 1)
                                 ->update(['retturn' => 0 ]);
+                            DB::table('books')
+                                ->where('id', $temp_book->id)->update(['loan_number' => 0 ]);
                         }
                     ?>
 

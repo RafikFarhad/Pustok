@@ -39,7 +39,7 @@
 
                 <div class="form-row">
                     <label>
-                        <span>Book Serial No: </span>
+                        <span>Book Access No: </span>
                         <input type="text" name="book_id" required="">
                     </label>
                 </div>
@@ -64,7 +64,7 @@
                 <!-- TEST -->
 
                 <h2> request for add loan </h2>
-                <!-- <h2> <?php echo $request->regno ?> </h2>
+                <h2> <?php echo $request->regno ?> </h2>
                 <h2> <?php echo $request->book_id ?> </h2> -->
 
                 <!-- VEERIFY USER AND BOOK-->
@@ -75,8 +75,8 @@
                 ?>
                 @if($temp_user==NULL)
                     <h2> Invalid User </h2>
-                <!-- CHECK IF USER IS FULL -->
-                @elseif($temp_user->loan_number1!=NULL && $temp_user->loan_number2!=NULL)
+                {{-- /// CHECK IF USER IS FULL  --}}
+                @elseif($temp_user->loan_number1!=0 && $temp_user->loan_number2!=0)
                     <h2> User Qouta is full </h2>
 
                 @elseif($temp_book==NULL)
@@ -85,7 +85,7 @@
                     <?php
                         $temp_loan = DB::table('loans')->where('bookid', $temp_book->id)->first();
                     ?>
-                    <!-- CHECK IF THAT BOOM IS TAKEN BY OTHERS -->
+                    <!-- CHECK IF THAT BOOK IS TAKEN BY OTHERS -->
                     @if($temp_loan!=NULL && $temp_loan->retturn==1)
                         <h2> This book is taken by others </h2>
                     <!-- OTHERWISE GIVE THIS BOOK -->
@@ -102,10 +102,10 @@
                             'retturn' => 1,
                             ]);
 
-                        $temp_loan = DB::table('loans')->where('bookid', $temp_book->id)->first();
+                        $temp_loan = DB::table('loans')->where('bookid', $temp_book->id)->where('retturn', 1)->first();
                         // UPDATE IN USER TABLE
 
-                        if($temp_user->loan_number1==NULL)
+                        if($temp_user->loan_number1==NULL || $temp_user->loan_number1==0)
                         {
                             DB::table('users')
                                 ->where('regno', $temp_user->regno)
@@ -117,6 +117,12 @@
                                 ->where('regno', $temp_user->regno)
                                 ->update(['loan_number2' => $temp_loan->loan_number]);
                         }
+
+                        /// UPDATE IN BOOK TABLE
+
+                        DB::table('books')
+                                ->where('id', $request->book_id)
+                                ->update(['loan_number' => $temp_loan->loan_number]);
 
 
                     ?>

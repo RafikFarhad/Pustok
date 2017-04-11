@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-@extends('layouts.app')
+@extends('layouts.customapp')
 
 @section('content')
 <head>
@@ -28,8 +28,8 @@
         <table class="table table-borderless" id="table">
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>Call Number</th>
+                    {{-- <th>ID</th> --}}
+                    <th>Access Number</th>
                     <th>Name</th>
                     <th>Author</th>
                     <th>Publication</th>
@@ -40,12 +40,12 @@
             @foreach($books as $item)
             <tr>
                 <td>{{$item->id}}</td>
-                <td>{{$item->callnumber}}</td>
+                {{-- <td>{{$item->callnumber}}</td> --}}
                 <td>{{$item->name}}</td>
                 <td>{{$item->author}}</td>
                 <td>{{$item->publication}}</td>
                 <td>{{$item->edition}}</td>
-                <td>True</td>
+                <td>{{ $item->loan_number==0?"Yes":"No" }}</td>
             </tr>
             @endforeach
         </table>

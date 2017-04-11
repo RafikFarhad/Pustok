@@ -1,0 +1,1153 @@
+DOS 6.2 Instant Reference  ## Thomas, Robert M. ** 10209
+2000 Solved Problems in Electronics  ## Cathey, Jimmie, J. ** 12280
+Oracle Developer/2000 Jamdnppl 2/E ## Muller J. Robert ** 19108
+Basic Systems Analysis ## Daniels, Alan & Yeates, Don ** 7810
+Mathematics of Quantum Computation and Quantum Technology  ## Chen, Goong … et. Al. ** 58405
+Microprocessor Interfacing Techniques  ## Zaks, Rodnay & Lesea, Austin ** 10179
+C: A Software Engineering Approach ## Darnell, Peter A. & Margolis, Philip E. ** 10193
+Teach Yourself C ## Schildt, Herbert. ** 19122
+Operating system: A Design-Oriented Approach ## Crowley, Charles. ** 19105
+Using Windows NT Server 4 ## Jennings, Roger … et. Al ** 19139
+Digital Principles and Application  ## Malvino, Albert Paul & Leach, Donald P. ** 12240
+Digital Integrated Electronics ## Taub, Berbert & Schilling Donald. ** 12271
+Multimedia: Making It work ## Vaughan, Tay ** 19099
+MCSE: NT Server 4 in the Enterprise Study Guide  ## Donald, Lisa & Chellis James ** 19087
+Using HTML 4, XML, and Java 1.2 ## Eric Ladd, Jim O'Donnell, … et. Al ** 20198
+Data and Computer Communication ## Stallings, William ** 50439
+Electronic Communication System ## Kennedy, George ** 6390
+Electronic Devices and Circuit Theory ## Boylestad, Robert & Nashelsky, louis. ** 34265
+Information Transmission, Modulation and Noise ## Schwartz, Mischa ** 6821
+Radio Engineering ## Mithal, G.K. & Mittal, Ravi ** 6792
+Programming language concets  ## Ghezzi, Carlo … et. Al ** 19111
+Practical OP. AMP projects ## Electronic Hobbyist ** 9548
+Principles of Electronics  ## Mehta, V.K ** 6810
+Theory and Problems of Programming with Java ## Hubbard, John R. ** 20248
+The C Answer Book ## Tondo, Clovis L. & Gimpel, Scott E. ** 10235
+Running Linux ## Welsh, Matt & Kaufman, Lar ** 19116
+Theory and problems of Electronic Circuits ## Edminister, Joseph A. & Nahvi, Mahmood. ** 20109
+An Introduction to operating system ## Deitel, Harvey M. ** 19106
+Upgranding PCs Illstrated ## Boyce Jim ** 19134
+Principles of Electronics  ## Mehta, V.K ** 6817
+Principles of Electronics : for B.E./ B. teach & other Engg. Examination ## Mehta, V.K & Metha, Rohit ** 6810
+Physics of Semiconductor Devices ## Shur, Michael ** 12254
+MCSE: Networking Essentials study guide ## Chellis, James … et. Al ** 12558
+Robotics: Control, Sensing, Vision and Intelligence ## Fu, S. K. … et. Al. ** 12273
+The computer Idiot's guide to PC Games  ## Haskin, Dabid ** 12527
+Visual Reference Basics Microsoft Windows 98 ## Schwartz, Karl ** 19097
+Introduction to Telephony and telegraphy ## Jolley, E.H. ** 12233
+MCSD: Windows Architectuel Study Guide ## Ezzel, Ben & Lee, Michael ** 19083
+Unix In a nutshell : A desktop Quick Reference for system V & solaris 2.0 ## Gilly, Daniel. ** 19131
+KgwcDUvi Awfavb ## ‡Pšayix, ZvwiKzj Bmjvg ** 34273
+The internet complete reference ## Hahn, Harley ** 12517
+Windows NT: Windows NT 4 Advanced Programming ## Agopal, Raj & Monica, Subodh P. ** 19145
+Modern Digital Electronics ## Jain, R. P. ** 12225
+Management information systems  ## O'Brien, James … et. Al. ** 19082
+The art of Prolog: Advanced programming techniques  ## Sterling, Leon & Shapiro, Ehud. ** 12260
+Fundamentals of Neural Networks ## Fausett, Laurene  ** 58388
+Vector Space and Matrices in Physics ## Jain, M. C. ** 58401
+Introduction to Microprocessors ## Mathur, Aditya P. ** 6832
+Advanced Graphics programming in C and C++ ## Stevens, Roger T. & Watkins, Christopher D. ** 19032
+Information Transmission, Modulation and Noise ## Schwartz, Mischa ** 6822
+Information Transmission, Modulation and Noise ## Schwartz, Mischa ** 6823
+Monochrome and colour television ## Gulati, R. R ** 6793
+Oxford Dictionary of Computing for learners of English  ## Pyne, Sandra and Tuck Allens ** 9530
+Electronic Data Interchange  ## Kimberley, Paul ** 9539
+Windows NT 4 Advanced Programming ## Agopal, Raj & Monica, Subodh P. ** 19146
+Electronic Communication System ## Kennedy, George ** 12237
+Communication systems ## Haykin, Simon ** 7818
+Electronic circuits Design and Applications ## Tietze, U. & Schenk, Ch. ** 10187
+Introduction to Microprocessors ## Mathur, Aditya P. ** 6827
+The art of computer programming ## Knuth, Donald E. ** 40306
+Hardware Bible ## Rosch, Winn L. ** 14114
+The java Handbook ## Naughton, Patrick ** 12257
+Operational Amplifiers with linear intergrated circuits ## Stanley, William D. ** 9542
+Theory and problems of Electronic Circuits ## Edminister, Joseph A. & Nahvi, Mahmood. ** 6865
+Borland C++ Developer's bible ## Peterson, mark ** 9527
+Digital Logic and Computer Design ## Mano, M. Morris  ** 6769
+Digital Logic and Computer Design ## Mano, M. Morris  ** 6770
+The visual C++ 5 programmer's References ## Leinecker, Richard C. ** 14133
+Digital Logic and Computer Design ## Mano, M. Morris  ** 6771
+Digital system design and microprocessor  ## Hayes, John P. ** 7609
+Fundamentals of Computer Algorithms  ## Horowitz, Ellis ** 9521
+Physics part II ## Halliday, David & Resnick, Robert ** 6844
+Physics part II ## Halliday, David & Resnick, Robert ** 6839
+Multimedia: an interroduction ## Villamil, john & Molina, Louis ** 19098
+Countdown 2000 The Y2K Challenge  ## Leon, Alexis ** 19047
+Robotics: Control, Sensing, Vision and Intelligence ## Fu, S. K. … et. Al. ** 12274
+Programming language Design and Implementation ## Pratt, Terrence W. ** 6894
+Introduction to Electronic Devices ## Shur, Michael ** 1039
+The 68000 Microprocessor : Hardware and Software Principles and Applications ## James L. Antonakos  ** 1008
+Neural Network and Fuzzy logic applications in C/C++ ## Welstead, Stephen T. ** 14112
+Principles of Electronics  ## Mehta, V.K ** 6809
+Op-Amps and Linear Integrated Circuits  ## Gayakwad, Ramakant A. ** 12256
+Principles of Artificial intelligence ## Nilsson, Nils J. ** 10190
+The C programming language  ## Kernighan, Brain W & Ritchie, Dennis M. ** 10,231
+A text book electrical technology ## Theraja, B.L. & Theraja, A.K. ** 12247
+A text book electrical technology ## Theraja, B.L. & Theraja, A.K. ** 12246
+A text book electrical technology ## Theraja, B.L. & Theraja, A.K. ** 12249
+Neural networks and fuzzy systems  ## Kosko, Bart ** 10198
+Electronic Device and Circuits  ## Millman, Jacob & Halkias, Christos C. ** 20012
+Digital system: principles and applications ## Tocci, Ronald J. & Widmer, Neal ** 19119
+Data Communications and Networking  ## Forouzan, Behrouz ** 56149
+Numerical Methods for Engineers  ## Chapra, Steven C. & Canale, Raymond P. ** 53241
+Digital system: principles and applications ## Tocci, Ronald J. & Widmer, Neal ** 56344
+Electronic Devices and Circuits Theory ## Boylestad, Robert & Nashelsky, louis. ** 50459
+Computer Hardware and Digital Electronics  ## Sharif, Dr. Hafiz Faruque Ahmed ** 55566
+Computer Hardware and Digital Electronics  ## Sharif, Dr. Hafiz Faruque Ahmed ** 55567
+Computer Hardware and Digital Electronics  ## Sharif, Dr. Hafiz Faruque Ahmed ** 55568
+Computer Hardware and Digital Electronics  ## Sharif, Dr. Hafiz Faruque Ahmed ** 55569
+Computer Hardware and Digital Electronics  ## Sharif, Dr. Hafiz Faruque Ahmed ** 55562
+Computer Hardware and Digital Electronics  ## Sharif, Dr. Hafiz Faruque Ahmed ** 55563
+Computer Hardware and Digital Electronics  ## Sharif, Dr. Hafiz Faruque Ahmed ** 55564
+Computer Hardware and Digital Electronics  ## Sharif, Dr. Hafiz Faruque Ahmed ** 55565
+Computer Hardware and Digital Electronics  ## Sharif, Dr. Hafiz Faruque Ahmed ** 55570
+Discrete Mathematics and Its applications ## Rosen, Kenneth H. ** 34260
+How Computers work  ## White, Ron ** 34204
+How the Internet works  ## Gralla, Preston. ** 34207
+Wireless Communications Technology ## Blake, Roy. ** 53029
+Beginning 3D Game programming ## Miller, Tom. ** 58410
+Prolgo programming for artificial intelligence ## Bratko, Ivan ** 61371
+Computer Graphics ## Shirley, Peter ** 60070
+Computer Networks: A system approach ## Petterson, Larry L. ** 56349
+Computer Networks ## Tanenbaum ** 59638
+Computer Networks ## Tanenbaum ** 59637
+Quantum Computing ## Nakahara, Mikio & Ohmi, Tetsuo ** 58404
+Simulation Modeling and Analysis ## Averill M. Law & Kelton, W.David ** 50476
+Concrete: Mathematics  ## Graham, Ronald L. … et. Al. ** 59640
+J2ME: The complete Reference ## Keogh, James ** 53027
+Applied operating system concepts ## Silbercohatz, Avi. … (et.all) ** 34184
+Opical Fibres and Fibre Optic Communications systems ## Karkar, Kumar Subir ** 53008
+Introduction to Robotics Mechanics and Control ## Craig, John J. ** 
+Digital Signal processing ## Proakis, John G. ** 53230
+Unix Network programming ## Stevens, W. Richard ** 40307
+Windows 2000: The complete Reference ## Lvens, Kathy. ** 40313
+Wap-The Wireless Applicatons Protocol ## Singhal, Sandeep. …(et.al) ** 40309
+Microprocessors and microcomputer-Based system ## Rafiquzzaman, Mohamed ** 34241
+Digital Image Processing Using Matlab. ## Gonzalez, Rafeal C. ** 50447
+Teach Yourself C++ ## Schildt, Herbert. ** 34238
+Ad Hoc Mobile Wireless Network protocols and systems ## Toh, C. K. ** 55551
+Pattern Classification  ## Duda, Richard O. (et. Al) ** 58381
+zBioinformatics computer  ## Bergeron, Bryan ** 53001
+Artificial Intelligence: A Modern Approach ## Stuart J. Russel & Norvig, P. ** 50432
+Graphic Java Mastering The awt ## Geary, David M. & McCllan, Alan L. ** 19059
+Integrated electronics: Analog and digital circuits and systems  ## Millman, Jacob & Halkias, Christos C. ** 14116
+Integrated electronics: Analog and digital circuits and systems  ## Millman, Jacob & Halkias, Christos C. ** 19066
+Integrated electronics: Analog and digital circuits and systems  ## Millman, Jacob & Halkias, Christos C. ** 19065
+Monochrome and Colur Television ## Gulati, R.R. ** 6797
+Database Management : Theory and Application ## Shepherd, John C. ** 4921
+Glimpses of World History ## Horrabin, J.F. ** 61893
+Information Systems ## Alter, Steven ** 61361
+Electronic Devices and Circuit Theory ## Boylestad, Robert & Nashelsky, louis. ** 7814
+Monochrome and colour television ## Gulati, R.R. ** 6798
+Superscalar Microprocessor Design ## Johnson, Mike ** 1015
+Java: The complete Reference ## Schildt, Herbert. ** 32440
+Telecommunication switching systems and networks ## Viswanathan, Thiagarajan. ** 53249
+Integrated electronics: Analog and digital circuits and systems  ## Millman, Jacob & Halkias, Christos C. ** 14117
+Applied operating system concepts ## Silbercohatz, Avi. … (et.all) ** 34185
+Linear Algebra with Applications ## Bretscher, Otto ** 61372
+Head First SQL ## Beighley, Lynn ** 60078
+Introduction to Computer Security ## Venkatramanayya, Sathyanarayana S. ** 61368
+P2P Networking and Applications  ## Buford, John F. … et. Al. ** 61375
+A Programmer's Guide to Java Tm Certification  ## Mughal, Khalid Azim & Rasmussen, Rolf ** 34181
+A Programmer's Guide to Java Tm Certification  ## Mughal, Khalid Azim & Rasmussen, Rolf ** 34178
+Teach Yourself C++ ## Schildt, Herbert. ** 34239
+Organizing information: Principles of Data Base and Tetrieval Systems ## Soergel, Dagobert. ** 61374
+Mastering Perl for Bioinformatics  ## Tisdall, James D. ** 60083
+Head First Networking ## Anderson, Al & Benedetti, Ryan ** 60082
+Linux: The complete Reference ## Petersen, Richard ** 40294
+Microsoft Windows XP Professional  ## Resource Kit Documentation ** 40299
+B›Uvi‡bU B-‡gBj B-Kgvm© ## ‡gv: AvwRRyi ingvb Lvb ** 34276
+Check Point NG VPN-1/FireWall-1 ## Noble, Jim … et. Al. ** 53043
+3G Wireless Networks ## Smith, Clint ** 55548
+Computer Networks: A system approach ## Petterson, Larry L. ** 56347
+The design And analysis of Computer Algorithms ## Aho, Alfred v . ** 61358
+Algorithms In C ## Sedgewick, Robert. ** 58377
+Programming and customizing the aver microcontroller ## Gadre, Dhananjay V. ** 53047
+Ad Hoc Mobile Wireless Network protocols and systems ## Toh, C. K. ** 55550
+Essential System Administration (2nd ed.) ## Frisch, Aeleen. ** 34203
+Advance Quantum Mechanics ## Sakurai, J.J. ** 58399
+Integrated electronics: Analog and digital circuits and systems  ## Millman, Jacob & Halkias, Christos C. ** 34215
+Optical Networks: A practical perspective ## Ramaswami, Rajib & Sivarajan, Kumar N. ** 53016
+Optical Networks: A practical perspective ## Ramaswami, Rajib & Sivarajan, Kumar N. ** 53015
+Management Information Systems: Managing The digital Firm ## Laudon, Kenneth C ** 56352
+Neuro-Fuzzy and Soft Computing : A computational approach to learning and machine intelligence ## Jang, Jyh-Shing Roger. ** 58378
+Introduction to Algorithms  ## Cormen, Thomas H. ** 50461
+Digital Image Processing Using Matlab. ## Gonzalez, Rafeal C. ** 50446
+Mastering Matlab 7 ## Hanselman, Duane & Bruce Littlefield ** 53239
+Introduction to Quantum Mechanics ## Griffiths, David J. ** 58398
+Distributed Computing Principles and Application ## Liu, M.L. ** 58385
+Neural Networks: A comprehensive Foundation ## Haykin, Simon ** 50472
+The Emperor's new mind ## Penrose, Roger ** 61898
+God Created The integers ## Hawking, Stephen ** 61907
+Electronic Funamentals and Applications ## Ryder, John D. ** 40281
+Digital Signal processing ## Proakis, John G. ** 56154
+Data communications and Networking ## Forouzan, Behrouz A. ** 34049
+An Introduction to Text-to-Speech Synthesis ## Dutoit, Theirry. ** 53221
+The Art of Computer programming ## Knuth, Donald E. ** 58389
+Satellite Communicatoins ## Roddy, Dennis & Coolen, John ** 53243
+Digital Signal processing ## Mitra, Sanjit K. ** 50457
+The Essentials of User Interface Design ## Cooper, Alan  ** 52992
+Foudamentals of Data Structures in C++ ## Horowitz, Ellis … et. Al ** 60074
+Engineering Mathematics  ## Ram, Babu ** 61365
+Wireless Communications and Newtorks ## Stallings, William ** 50478
+Applying UML And Patterns  ## Larman, Craig ** 50427
+MSCE: NT Workstation Study guide  ## Perkins, Charles … et. Al ** 12561
+Data and Computer Communication ## Stallings, William ** 19049
+Advance Computer Architecture: A system Design approach ## Kain, Richard Y. ** 19030
+A textbook of Electrical Technology ## Theraja, B.L. & Theraja, A.K. ** 12250
+A textbook of Electrical Technology ## Theraja, B.L. & Theraja, A.K. ** 7003
+Digital Systems: Principles and Applications ## Tocci, Ronald J. ** 19078
+Digital Principles and Application  ## Malvino, Albert Paul & Leach, Donald P. ** 6806
+HTML by Example ## Navarro, Ann & Stauffer, Todd ** 1787
+Data and Computer Communications ## Stallings, William ** 12529
+The Java TM programming Language  ## Arnold, Ken & Gosling James ** 19129
+Systems Analysis and Design and the Transition to Object ## Dewitz, Sandra Donaldson ** 14111
+Writing Visual Basic Controls Using Visual C++ ## Elavia, Gulzar N. … et. Al ** 1028
+Optical Fiber Communication: Principles and practice ## Senior, John M. ** 7626
+PC Learing Labs thaches microsoft office ## BPB Publications  ** 10208
+Digital computer fundamentals ## Baatee, Thomas C. ** 7604
+Artificial Intelligence ## Knight, Kevin ** 7610
+ATOMIC and Nuclear physics  ## Gupta, A. B. & Ghosh, Dipak ** 1034
+Essential System Administration ## Frisch, Aeleen. ** 34202
+Microprocessors and microcomputer: An introduction  ## Givone, Donald D. & Roesser, Robert P. ** 9547
+মাইক্রোসফট পাবলিশার ## চৌধুরী, তারিকুল ইসলাম ** 34277
+Introduction to ATM Networking ## Goralski, Walter J. ** 20234
+Principles of Electronics ## Mehta, V.K ** 1044
+An intrdouction to Switching Tehory and Digital Electronics  ## Jain, Dr. V.K. ** 6779
+Fundamental of programming languages ## Horowitz, Ellis ** 40284
+সহজ সি ভাষায় প্রোগ্রামিং ## জবিউল্লাহ, মো: ইসমাইল ** 34280
+C Data Base Development ## Stevens, Al ** 7613
+Computer Architecture and Organization ## Hayes, John P. ** 19038
+Introduction to Computers Fundamentals of Computer science ## Subramanian, N ** 14125
+Solid State Electronic Devices  ## Streetman, Ben G & Banerjee, Sanjay ** 12242
+Computer Architecture and Organization ## Hayes, John P. ** 7608
+Microprocessor, Architecture, Programming, and Applications with the 8085 ## Gaonkar, Ramesh S. ** 34225
+Modern Digital Electronics (2nd edi.) ## Jain, R.P. ** 40300
+Radio Engineering ## Mithal, G.K. & Mittal, Ravi ** 6788
+The Intel Microprocessors:  ## Brey, Barry B. ** 34216
+Computer Architecture: Concepts and Evolution ## Blaauw, Gerrit A. & Brooks, Frederick P. ** 61369
+Data Warehousing in the Real World: A practical Guide for building decision support systems  ## Anahory, Sam & Murray, Dennis. ** 61362
+Introduction to Turbo Prolog ## Townsend, Carl ** 1010
+Digital Signal: Processing A system Design Approach ## Defatta, David J. … et al. ** 12266
+Web Publishing  ## D'Souza, Monica & D'Souza, Jude ** 40311
+An Introduction to Operating System ## Goshake, Walter … et. Al. ** 10176
+The C progrmming language ## Kernighan, Brian W. ** 10232
+Networking with Lantastic ## Montgomery, Michael S. ** 10177
+Integrating TCP/IP into SNA ## Taylor, Ed. ** 12516
+How the Internet works  ## Gralla, Preston. ** 34209
+Microprocess architecture, programming and applications with the 8085 ## Gaonkar, Ramesh S. ** 34227
+Computers and information systems  ## hutchinson, Sarah, E. & Sawyer, Stacey C. ** 34247
+Introduction to Bioinformatics  ## Attwood, T.K. … et. Al. ** 61364
+Interactive computer Graphics ## Angel, Edward ** 61363
+Discrete Mathematics and Its applications ## Rosen, Kenneth H. ** 34259
+Electronic Devices and Circuit Theory ## Boylestad, Robert & Nashelsky, louis. ** 34270
+Mastering Perl for Bioinformatics  ## Tisdall, James D. ** 60084
+Discrete Mathematics ## Akerkar, Rajendra & Akerkar, Rupali ** 61359
+Data Structures and Algorithms  ## Aho, Affred V. … et. Al ** 60072
+Mastering Visual C++ 6 ## Young, Michael J. ** 19080
+Operating system concepts ## Silberschatz, Abraham & Galvin, Peter Bear ** 34231
+C++ How to problem ## Deitel, H.M & Deitel, P.J. ** 34190
+Orject-Oriented programming With C++ ## Bhave, M.P. ** 61367
+The Feynman Lecture On Physics  ## Feynman … et. Al ** 58406
+The Feynman Lecture On Physics  ## Feynman … et. Al ** 58407
+The Feynman Lecture On Physics  ## Feynman … et. Al ** 58408
+The Intel Microprocessors:  ## Brey, Barry B. ** 56151
+Data communications and networking ## Forouzan, Behrouz A. ** 53251
+Web Design: A Beginner's Guide ## Willard, Wendy ** 40310
+Apache Web Server Administration & E-commerce Handbook ## Hawkins, Scott ** 40260
+Management of Information Technology ## Frenzel, Carroll W. & Frenzel, John C. ** 55371
+Shadows of the mind ## Penrose, Roger ** 61895
+Cases In Electronic Commerce ## Huff, Sid L. … (et al) ** 40266
+Programming Languages Design and Implementation ## Pratt, Terrence W. ** 40304
+Microelectronic Circuits ## Sedra, Adel S. ** 40297
+Guns, Germs and steel ## Diamond, Jared. ** 61896
+An introduction to switching theory and digital electronics  ## Jain, Dr. V.K. ** 6780
+Unix Network Programming Vlume 1 ## Stevens, W. Richard ** 40308
+Designing Interactive Web Sites ## Mohler, James L. & Duff Jon M. ** 40269
+C programmer's utility library ## Whitsell, Frank ** 1013
+Advance Compiler Design and Implementation ## Muchnick, Steven S. ** 40257
+Pratical Parallel Programming  ## Wilson, Geogory, V. ** 58386
+Distributed System: Concepts and Desging  ## Coulouris, George …(et.al) ** 40275
+Wideband Wireles Digital Communication ## Molish, Andreas F. ** 40312
+C++ How to Program (2nd. Ed.) ## Deitel, H.M. & Deitel P.J. ** 34191
+A Programmer's Guide to JavaTm Certification ## Mughal K.A & Rasmussen R. ** 34180
+Microprocessors and Microcomputer Hardware and Software ## Tocci, Ronald J. ** 40298
+Advanced Java TM 2 Platform How to program ## Deitel, H.M. & Deitel P.J. ** 40258
+A first Course in Database Systems ## Ullman, Deffrey D. ** 55549
+Oracle9iAs Portal Bible ## Greenwald, R. & Milbery, J. ** 40302
+G·cvU© †bUIqvwK©s ## miKvi, myü` ** 34275
+Microprocessor, Architecture, Programming, and Applications with the 8085 ## Gaonkar, Ramesh S. ** 34224
+Electronic Devices ## Floyd, Thomas L. ** 40280
+Modern  Structured Analysis ## Yourdon, Edward ** 40301
+Head First SQL ## Beighley, Lynn ** 60077
+Wirless communication and Networks ## Stallings, William ** 50480
+A Programmer's Guide to JavaTm Certification ## Mughal K.A & Rasmussen R. ** 34182
+Neural Networks: A comprehensive Foundation ## Haykin, Simon ** 53028
+Digital Image Processing and computer Vision ## Schalkoff, Robert J, ** 12515
+Oracle Database 10g: The complete Reference ## Loney, Kevin ** 55374
+Numerical Methods Using Matlab ## Mathews, John H. & Fink, Kurtis D. ** 53025
+Microelectronic Circuits: Analysis and Design ## Rashid, Muhammad H. ** 40296
+Distributed Algorithms ## Lynch, Nancy A. ** 40274
+Designing the user interface: Strategies for Effective human-computer interaction  ## Shneiderman, Ben ** 40270
+Advance programming in the Unix Environment ## Stevens, W. Richard ** 40259
+A Devil's Chaplain ## Menon, Latha ** 61900
+A Brief History of time ## Hawking, Stephen W. ** 10213
+Orientalism ## Said, Edward W. ** 
+The Idea of Justice ## Sen, Amartya ** 61984
+Don't you have time to think ## Feynman … et. Al ** 61912
+Unweaving Rainbow ## Dawkins, Richard ** 61901
+Broca's Brain: Reflections on the Romance of science ## Sagan, Carl. ** 61913
+Fermat's Last Theorem ## Singh, Simon. ** 61897
+The selfish gene ## Dawkins, Richard ** 61903
+A Ristotle, Metaphysics ## Penguin Classics publicatio ** 61911
+The Genome War : How craig Venter tried to capture the code of life and save the world ## Shreeve, James. ** 61904
+Introduction to Microprocessors ## Mathur, Aditya P. ** 6833
+The windows 3.1 Bible ## Davis, Fred ** 9522
+Electric circuits ## Nilsson, James W. ** 40277
+Operating system concepts ## Silberschatz, Abraham & Galvin, Peter Bear … et. Al ** 56341
+i486 Microprocessor programmer's reference manual ## Intel corporation ** 7815
+Computer programming in C ## Rajaraman, V. ** 20202
+Miller & Freund's Probability and statistics for Engineers  ## Johnson, Richard ** 55375
+Java How to programm with in introduction to visual J ++ ## Deitel, H.M. & Deitel P.J. ** 19071
+Telecommunication : principles, circuits, system and experiments ## Ramabhadran, S. ** 12253
+Programming and problem solving with Java ## Slack, James M. ** 34237
+Electronic communication system ## Kennedy, George ** 6892
+Computer system architecture ## Mano, M. Morris  ** 7841
+Test Prep MCSE Windows NT Workstation 4 ## Stanton, Luther ** 20142
+Logic and Discrete Mathematics : A computer science perspective  ## Grassmann, Winfried Karl & Tremblay, Jean-Paul ** 20137
+Red Hat Linux  ## Pitts, David … et. Al ** 14127
+Electronic Communiations systems: Fundamentals through Advanced  ## Tomasi, Wayne ** 40279
+Setting up an Internet site for dummies  ## Coombs, Jason & Coombs, Ted ** 10201
+Windows programming: An Introduction ## Murray, William H. & Pappas, Chris H. ** 4729
+Communications systems: Analog and Digital ## Singh, R.P & Sapre, S.D ** 9543
+MCSD: Windows Architectuel II Study Guide ## Lee, Michale & Kevin Wolford ** 19084
+Graphics Programming and Animation ## Jungck, Peder ** 19060
+Developing Bioinformatics Computer Skills ## Gibas, Cynthia & Jambeck, Per ** 40271
+Electronic Commerce: Secuity, Risk Management and Control ## Greenstein, Marilyn & Feinman, Todd M ** 40278
+The essential clint/server survival guide  ## Orfali, Robert … et. Al ** 14130
+Data Structures and Algorithm Analysis In C++ ## Weiss, Mark Allen ** 20104
+JavaTM Programming Advanced Topics ## Wigglesworth, Joe … et.al ** 40293
+Network Management: Principles and practice ## Subramanian, Mani ** 55373
+The Intel Microprocessors:  ## Brey, Barry B. ** 34217
+Applying UML And Patterns  ## Larman, Craig ** 50429
+Introduction to computers ## Alamgir, Mohammed ** 55577
+Introduction to computers ## Alamgir, Mohammed ** 55578
+Numerical Methods for Engineers  ## Chapra, Steven C. & Canale, Raymond P. ** 56146
+Discrete Mathematics ## Lipschutz, Seymour & Lipson, Marc Lars ** 19027
+Microprocessors and Microcomputer-Based system Design ## Rafiquzzaman, Mohamed ** 34240
+Assembly language for the PC ## Socha, John & Norton, Peter ** 12534
+Digital Systems: Principles and Applications ## Tocci,  ** 19054
+Electronic Devices and circuit theory ## Boylestad, Robert & Nashelsky, louis. ** 34264
+Matlab and Its applications in Engineering  ## Bansal, Raj Kumar … et. Al ** 61366
+Visual Basic 5 Database How-to ## Dennis Kennedy … et. Al ** 14129
+Electronic Devices and circuit theory ## Boylestad, Robert & Nashelsky, louis. ** 34263
+Computer architcuture A Quantitative Approach  ## Patterson, David A. & Hennessy, John L. ** 34196
+Computerised Accounts ## Bassett, P.H. ** 14124
+এডোবি ফটোশপ ## রহমান, মাহবুবুর ** 34278
+Intergrated electronics: Analog and digital circuits ans systems  ## Millman, Jacob & Halkias, Christos C. ** 34211
+Microprocessors/Microcomputers ## Givone, Donald D. & Roesser, Robert P. ** 10173
+JavaTm The complete Reference ## Schildt, Herbert. ** 53235
+High-performance communication networks ## walrand, Jean & Varaiya, Pravin ** 40285
+Technical writing for engineers and scientists ## Rosenberg, Barry J. ** 55378
+Visual C++5: The complete Reference ## Pappas, Chris H. & Murray, William H. ** 12960
+Digital Design ## Mano, M. Morris  ** 40273
+Electronic Devices and circuit theory ## Boylestad, Robert & Nashelsky, louis. ** 50458
+How Computers work  ## White, Ron ** ECS-001
+Advanced Unix for Dummies  ## Levine, John R. & Young, Levine Margaret ** 10202
+Computer Graphics and CAD Fundamentals ## Morris, Noel M. ** 10195
+RFID Applications, Security and Privacy ## Garfinkel, Simson & Rosenberg Beth ** 55376
+Computer Networking : A Top Down Approach Featuring the internet ## Kurose, James F. ** 34199
+Oracle: The complete Reference ## Koch, George & Loney, Kevin. ** 12540
+Introduction to Computer Science: An algorithmic approach ## Tremblay, Jean-paul & Bunt, Richard B. ** 40292
+Microelectronics ## Millman, Jacob & Grabel, Arvin ** 12238
+Data and computer communications  ## Stallings, William ** 50437
+Unix In a nutshell : A desktop Quick Reference for system V & solaris 2.0 ## Gilly, Daniel. ** 20192
+The 80x86 family: Design, Programming and interfacing ## Uffenbeck, John ** 53030
+Microprocessors and microcomputers-based system design ## Rafiquzzaman, Mohamed ** 7605
+Theory and problems of Analog and digital communications  ## HSU, Hwel P. ** 53246
+Theory and problems of Analog and digital communications  ## HSU, Hwel P. ** 53247
+3G Handset and Network Design ## Varrall, Geoff & Belcher, Roger ** 53026
+Electronic Measurements and instrumentationi  ## Oliver, Bernard M. & Cage, John M. ** 10225
+Object-Oriented systems analysis and Design using UML ## Bennett, Simon & McRobb, Steve. … et. Al ** 55557
+The cdma2000 systems for mobile communications ## Vanghi, Vieri … et.al ** 55560
+Introduction to computers ## Alamgir, Mohammed ** 55574
+Introduction to computers ## Alamgir, Mohammed ** 55584
+Introduction to computers ## Alamgir, Mohammed ** 55582
+Introduction to computers ## Alamgir, Mohammed ** 55583
+Introduction to computers ## Alamgir, Mohammed ** 55572
+Introduction to computers ## Alamgir, Mohammed ** 55586
+Electronic Devices and circuit theory ## Boylestad, Robert & Nashelsky, louis. ** 50460
+Management information system :Managing the Digital firm ## Laudon, Kenneth C & Laudon, Jane P. ** 50467
+Computers, communications, and information ## hutchinson, Sarah, E. & Sawyer, Stacey C. ** F-07
+Digital Electronics ## Tokheim, Roger L. ** 9557
+An introduction to switching theory and digital electronics  ## Jain, V.K. ** 6778
+Data communications and networking ## Forouzan, Behrouz A. ** 53225
+Unix & Linux : Answers! Certified tech Support ## Russel, Charlie & Crawford, Sharon ** 14118
+A Programmer's Guide to JavaTm Certification ## Murray, William H. & Pappas, Chris H. ** 34179
+How Computers work  ## White, Ron ** 34206
+Object-Oriented systems analysis and Design with application ## Booch, Grady ** 19100
+Assembly language programming and organization of the IBM PC ## Yu, Ytha & Marut, Charles ** 12523
+How Internet work  ## Gralla, Preston. ** 34208
+The Intel Microprocessors:  ## Brey, Barry B. ** 19128
+Operating system concepts ## Silberschatz, Abraham & Galvin, Peter Bear … et. Al ** 56339
+Windows NT4 The complete Reference ## Kadnier, Griffith ** 12962
+Introductory circuit analysis ## Boylestad, Robert ** Rabby-17
+Microprocessors: Principles and applications ## Gilmore, Charles M. ** 20145
+e-Commerce: Strategy, Technologies and Applications ## Whiteley, David ** 40276
+Information Transmission, Modulation and Noise ## Schwartz, Mischa ** 6762
+Neural Networks fundamentals with graphs, algorithms and applications ## Bose, N.K. & Liang, P. ** 12518
+এলডাস পেইজ মেকার 5.0 এবং এডোবি পেইজ মেকার 6.0 ## চৌধুরী, তারিকুল ইসলাম ** 34279
+Essentian system administration ## Frisch, Aeleen. ** 20116
+Network theory and filter design ## Aatre, Vasudev K. ** 10220
+Teach Yourself Unix Shell programming in 14 Days ## Husain, Kamran ** 14121
+Teach Yourself  ## Schildt, Herbert. ** 20255
+Theory and problems of Analog and digital communications  ## Husain, Kamran ** 53245
+ইলেকট্রনিক্স ## হোসেন, ড. মোঃ মোজাফফর ** ECS-1001
+WDM Optical Networks: Concepts, Design and Algorithms ## Murthy, C. Siva Ram & Gurusamy, Mohan ** 53006
+Developing Java BeansTM Using Visual Age For JavaTM  ## Nilsson, Dale R. … et.al ** CSE-A2
+Teach Yourself Linux in 24 Hours ## Techmedia ** 14122
+Electronic Devices and Circuits ## Millman, Jacob & Halkias, Christos C. ** CSE-1
+Foundations of Parallel processing ## Ghosh, Ratan K. … et. Al ** 10189
+Systems Management under Unix and Unix-like systems ## Midpm, N.G. Backhurst … et.al ** 10218
+Digital Principles and Application  ## Malvino, Albert Paul & Leach, Donald P. ** 6807
+Practical C++ Programming ## Oualline, Steve ** 20161
+Elements of Discrete mathematics ## Liu, C.L. ** 12267
+Electronic properties of Materials ## Hummel, Rolf E. ** 10185
+An introduction to switching theory and digital electronics  ## Jain, V.K. ** 6782
+Operating system concepts ## Silberschatz, Abraham & Galvin, Peter Bear … et. Al ** 34233
+Digital and analog communications systems ## Shanmugam, K. Sam ** 12264
+সায়েন্স ফিকশান সমগ্র  ## ইকবাল, মুহম্মদ জাফর ** Za-07
+Computer architecture A Quantitative Approach ## Patterson, David A. & Hennessy, John L. ** Bi-06
+Networks, lines and fields ## Ryder, John D. ** 7829
+Optical Fibers and Fibre optic communications systems ## Sarkar, Subir Kumar ** 53007
+The language of the Genes : Biology, History and the Evolutionary future  ## Jones, Steve ** 61905
+Electronic Devices and circuit theory ## Boylestad, Robert & Nashelsky, louis. ** 9545
+Test Prep MCSE Microsoft Windows 98 ## Guilbault, Alain. ** 19093
+PC Learning Labs teaches windows 95 ## Scott, Richard ** 10204
+Algorithms In C ## Sedgewick, Robert. ** 58393
+Microsoft foundation class ## Not found ** ECS-1017
+Electronic Devices and circuit theory ## Boylestad, Robert & Nashelsky, louis. ** 34262
+C++: The complete Reference ## Schildt, Herbert. ** 20219
+C++ Solutions Companioin to The C++ Programming language ## Vandevoorde, David ** 20094
+The C progrmming language ## Kernighan, Brian W. ** 10230
+Microsoft Internet information server 4: The complete Reference ## Mueller, John Paul & Sheldon, Tom ** 20146
+Principles of Multimedia database systems ## Subrahamanian, V.S. ** 53005
+Microwave Engineering ## Gupta, Sanjeeva … et.al ** 10222
+Software Engineering ## Pressman, Roger S. ** Rabby-21
+Electronic communication system ## Kennedy, George ** 6767
+Modern Digital and communication systems ## Lathi, B.P ** 53035
+An Engineering Approach to Computer Networking: ATM Networks, the Internet, and the Telephone network ## Keshav, S. ** 52995
+Object-Oriented programming with C++ ## Parsons, David ** 19101
+ইলেকট্রোনিক্স পাঠ ## প্রডাকটিভিটি সাভিসেস উইং ** 10214
+Introduction to Automata theory languages and communication ## Hopcroft, John E. & Ullman, Jaffrey D. ** 40290
+Microprocessors and Interfacing programming and hardware ## Hall, Douglas V. ** 34228
+A textbook of Electrical Technology ## Theraja, B.L. & Theraja, A.K. ** 12246
+An introduction to Database system ## Date, C.J. ** 20088
+Principles of Electronics ## Mehta, V.K ** 6812
+Cryptography and Network Security: Principles and Practice ## Stallings, William ** 34200
+3D Studio Max R3 Bible ## Murdock, Kelly L. ** 34177
+Microsoft Workgroup Add-On for windows ## Microsoft Corporation ** ECS-002
+Electronic and Radio Engineering ## Terman, Frederic Emmons. ** 9537
+Monochrome and colour television ## Gulati, R.R. ** 6794
+Digital Signal: Processing  ## Proakis, John G. & Manolakis, Dimitris G. ** 55369
+Microprocessors and Interfacing programming and hardware ## Hall, Douglas V. ** Rabby-13
+Upgrading, Maintaining, and Servicing IBM PCs and Compatibles ## Leventhal, Lance A. ** 12533
+10 minute guide to lotus 1-2-3 release 5 for windows ## Aitken, Peter ** 12536
+HTML publishing on the world wide web ## Bride, Mac ** 12554
+Readings in object-oriented database system ## Zdonik, Stanley B. & Maier, David ** CSE-A1
+Microprocessors and Interfacing programming and hardware ## Hall, Douglas V. ** 55555
+Theory and problems of Electronic Circuits ## Edminster, Joseph A. ** 6860
+MCSE Testprep Internet Explorer 4 ## Ruth, Andy ** 19092
+TCP/IP Illustrated ## Stevense, W.Richard ** 20174
+AutoCAD 14 Fundamentals ## Beall, Michael E. & Fulmer, Howard M. ** 20091
+Alternating-Current Circuits ## Kerchner, Russell M. ** 12228
+Optical Fibers and Fibre optic communications systems ## Sarkar, Subir Kumar ** 53010
+Fundamentals of programming languages ## Horowitz, Ellis ** 14123
+The foxpro 2.6 Codebook ## Griver, Yair Alan ** 7809
+Monochrome and colour television ## Gulati, R.R. ** 6802
+Data and computer communications  ## Stallings, William ** 50438
+MCSE NT Server 4.0 Study Guide ## Syngress Media ** 14107
+Microcomputers and microprocessors  ## Uffenbeck, John ** 20144
+Electronics ## Cathey, Jimmie J. ** 12279
+Programming and customizing the aver microcontroller ## Gradre, Dhananjay V. ** 53046
+Optical Communication systems ## Franz, J. & Jain V.K. ** 12234
+teach yourself ANSI C++ in 21 days ## Liberty, Jess & Hord, J. Mark ** 20186
+Optical Communication systems ## Gowar, John ** 12241
+Data and computer communication ## Stallings, William ** 12530
+Introduction to Algorithms  ## Cormen, Thomas H. … et.al ** 56355
+Bioinstrumentation ## Webster, John G. ** 58380
+Management information system ## Laudon, Kenneth C & Laudon, Jane P.  ** 50470
+Fuzzy Logic : Intelligence, control and information ## --- ** 58397
+Satellite Communicatoins ## Gagliardi, Robert M. ** 6882
+Intergrated electronics: Analog and digital circuits ans systems  ## Millman, Jacob & Halkias, Christos C. ** 20121
+Computer Organization ## Hamacher, V. Carl … et. Al ** 7600
+MCSE: NT Server 4 in the Enterprise Study Guide  ## Donald, Lisa & Chellis James ** 12559
+Electronic Communication systems ## Kennedy, George ** 6896
+Discrete Mathematics and Its applications ## Rosen, Kenneth H. ** 34253
+Computer Networks ## Tanenbaum, Andrew S. ** 12245
+Adobe Premiere 5.0 ## Techmedia ** 20086
+The Waite Group's C programming using turbo C++ ## Lafore, Robert ** Bi-09
+Telecommunications and the computer ## Martin, James ** 20177
+Discrete Mathematics and Its applications ## Rosen, Kenneth H. ** 34257
+Information Retrieval algorithms and heuristics ## Grossman, David A. & Frieder, Ophir ** 58411
+Principles of Database systems ## Ullman, Jeffrey D. ** 6880
+Software Engineering ## Pressman, Roger S. ** 20250
+C++ How to Program ## Deitel, H.M. & Deitel P.J. ** 19034
+Computer Networks  ## Tanenbaum, Andrew S. ** 20100
+Microprocessors and microcomputer based system design ## --- ** 7838
+Intergrated electronics: Analog and digital circuits ans systems  ## Millman, Jacob & Halkias, Christos C. ** 34212
+Alternating-Current Circuits ## Kerchner, Russell M. ** 12229
+Principles of interactive computer graphics ## Newman, William M. ** 12552
+Signals and linear systems ## Gabel, Robert A. & Roberts, Richard A. ** 12265
+Dictionary of Synonyms and Antonyms ## The Oxford & IBH ** 10238
+Basic Telephone Switching systems ## Talley, David. ** 9549
+Principles of Electronics ## Mehta, V.K ** 6808
+Digital Telephony  ## Bellamy, John ** 12277
+PC Upgrading & Maintenance ## PC Novice/Smart Computing ** 19110
+Wireless Communications and Newtorking ## Stallings, William ** 50479
+An Advanced Course in Practical Physics ## Chattopadhyay, D. … et.al ** ECS-1035
+Oracle8 Design Tips ## Ensor, Dave & Stevenson, Ian ** 20151
+Oracle8 Design Tips ## Ensor, Dave & Stevenson, Ian ** 20152
+Oracle8 Design Tips ## Ensor, Dave & Stevenson, Ian ** 20157
+Windows Nt Troubleshooting ## Ivens, Kathy ** 20213
+Inside the PC ## Norton, Peter & Goodman, John ** 20231
+Hand Book of Electronics  ## Gupta, Dr. S.L. & Kumar, Dr. V. ** 12549
+Oracle8 Design Tips ## Ensor, Dave & Stevenson, Ian ** 20156
+Software Engineering with Java ## Schach, Stephen R. ** 20253
+C++ How to Program ## Deitel, H.M. & Deitel P.J. ** 50442
+C How to program ## Deitel, H.M. & Deitel P.J. ** 50436
+Computer Networks: A system approach ## Peterson, Larry L. & Davie, Bruce S. ** 56345
+Teach Yourself Windows 98 in 24 Hours ## Perry, Greg. ** 20190
+Programming in ANSI C ## Kochan, Stephen G. ** 20162
+Theory and problems of Electronic Circuits ## Edminster, Joseph A. & Nahvi, Mahmood. ** 20110
+Java 1.1 Developer's Guide  ## Jaworski, Jamie ** 20130
+Intergrated electronics: Analog and digital circuits ans systems  ## Millman, Jacob & Halkias, Christos C. ** 20122
+Applying UML And Patterns  ## Larman, Craig ** 50430
+Electronic Circuits  ## Nilsson, James W. & Riedel, Susan A. ** 20112
+Programming Languages Design and Implementation ## Pratt, Terrence W. & Zelkowitz, Marvin V. ** 20164
+Data and computer communications ## Stallings, William ** 20220
+The C progrmming language ## Kernighan, Brian W. & Ritchie, Dennis M. ** 20181
+Fundamental of Software Engineering ## Mall, Rajib ** 20118
+The C progrmming language ## Kernighan, Brian W. ** 20182
+Jbuilder Essentials ## Jensen, Carry … et. Al ** 20334
+Microprocessors and interfacing programming and hardware ## Hall, Douglas V. ** 20235
+JavaBeans Programming from the Ground Up ## O'Neil, Joseph ** 20131
+Theory and Problems of Introduction to Digital System ## Palmer, James E. & Perlman, David E. ** 20127
+Oracle8 DBA Handbook ## Loney, Kevin ** 20154
+C++ Primer Plus ## Waite, Mitchell ** 20092
+Using Microsoft PowerPoint 97 ## Steaenson, Nancy … et.al ** 20202
+AutoCAD 14: Fundamentals ## Beall, Michael E. ** 20090
+Peter Nortons' Inside the PC ## Norton, Peter & Goodman, John ** 20232
+Logic and Discrete Mathematics: A computer Science Perspective ## Grassmann, Winfried Karl & Tremblay, Jean-Paul ** 20138
+Using C++ ## McGregor, Rob ** 20197
+Programming in ANSI C ## Kochan, Stephen G. ** 20163
+Using Visual C++  ## Gregory, Kate ** 20207
+Digital Logic and Computer Design ## Mano, M. Morris  ** 20106
+Numerical Methods for Engineers  ## Chapra, Steven C. & Canale, Raymond P. ** 56144
+Data communications and Networking ## Forouzan, Behrouz A. ** 56148
+Oracle Database 10g: The complete Reference ## Loney, Kevin ** 53021
+Data Communications, Computer Networks and Open Systems ## Halsall, Fred. ** 40267
+Java 1.1: The Complete Reference ## Naughton, Patrick & Schildt, Herbert ** 14120
+Teach Yourself Visual FoxPro 5.0 for Windows ## King, Nelson. ** 12961
+Electronic Communication system ## Kennedy, George ** 6887
+The essential guide to Networking ## Keogh, Jim ** 50481
+CAD/CAM: Computer-Aided Design and Manufacturing ## Groover, Mikell P. & Jimmers, Emory W. ** 34194
+Operating system  ## Stallings, William ** 12551
+Digital electronics and microprocessors: problems and solutions ## Jain, R.P. ** 12235
+CADCAM: principles, practice and manufacturing management ## McMahon, Chris & Browne, Jimmie ** 34195
+MCSE: NT Server 4 in the Enterprise Study Guide  ## Strebe, Matthew & Perkins, Charles ** 19089
+Windows NT Windwos 98 Networking ## 19144 ** 
+C How to program ## Deitel, H.M. & Deitel P.J. ** 50433
+The Art of Computer programming ## --- ** 19124
+Microprocessor architecture, programming and applications with the 8085 ## Gaonkar, Ramesh S. ** 19095
+An Engineering Approach to Computer Networking: ATM Networks, the Internet, and the Telephone network ## Keshav, S. ** 52994
+Computer Graphics ## Foley, James D. … et.al ** 34198
+C++ programming for windows ## Porter, Anthony. ** 7816
+Theory and problems of programming with pascial ## Gottfried, Byron S. ** 6873
+Computer Graphics: Principles and practice ## Foley, James D. ** 14134
+Integrated Electronics: Analog and Digital Circuits and System ## Millman, Jacob & Halkias, Christoc C. ** 34213
+Discrete Mathematics and Its Applications (5th edition) ## Rosen H. Kenneth. ** 34259
+The Intel Microprocessors:  ## Brey, Barry B. ** 34232
+Operating System : A design-orientad approach ## Crowley, Charles. ** 34235
+Java TM 2: The complete Reference ## Schildt, Herbert. ** 34221
+Discrete Mathematical structure ## Kolman, Bernard … et.al ** 12261
+Basic Electronics and linear circuits ## Bhargava, N. N. …. (et. Al) ** 12224
+An Introduction to the Intel Family of Microprocessors ## Antonakos, James L. ** 34183
+Beginning Java 2 JDK 1.3 Edition ## Horton, Ivor ** 34186
+Intergated Electronics: Analog and Digital Circuits and System ## Millman, Jacob & Halkias, Christoc C. ** 34210
+Integrated Electronics: Analog and Digital Circuits and System ## Millman, Jacob & Halkias, Christoc C. ** 34214
+Neural Networks: A comprehensive Foundation ## Haykin, Simon ** 50471
+Radio Engineering ## Mithal, G.K. & Mittal, Ravi ** 6783
+How to Solve it by Computer ## Dromey, R.G. ** DEB-02
+Linear and Interface Circuits applications ## Pippenger, D.E. & Tobaben, E.J. ** 12223
+Introduction to Algorithms  ## Cormen, Thomas H. …et.al ** 50462
+Digital image processing ## Gonzalez, Rafeal C. & Woods, Richard E. ** Bi-03
+Computer programming in C ## Rajaraman, V. ** 20101
+Microcomputers and microprocessors ## Uffenbeck, John ** 20143
+The Art of Computer programming ## Knuth, Donald E. ** 58390
+Data communications and Networking ## Forouzan, Behrouz A. ** 50445
+Computer organization and design: The hardware/Software Interface ## Patterson, David A. & Hennessay, John H. ** 56159
+Computer organization and design: The hardware/Software Interface ## Patterson, David A. & Hennessay, John H. ** 56161
+Computer Networks: A system approach ## Peterson, Larry L. ** 56348
+Data and computer Communications ## Stallings, William ** 59635
+Computer Networks: A system approach ## Peterson, Larry L. ** 56350
+Data and computer Communications ## Stallings, William ** 59636
+IPv6: The Next Generation Internet Protocol ## Miller, Stewart S. ** 53053
+Coreldraw 8 : The Official Guide ## Coburn, Foster & McCormic, Peter ** 20203
+Operating System ## Godbole, A. S. ** 20149
+Sams Teach Yourself Visual Baisc 6 in 21 days ## Perry, Greg ** 20188
+Dan Appleman's Com/ActiveX Components With visual Basic 6 ## Appleman, Dan ** 20105
+Linux: The complete Reference ## Petersen, Richard ** 20135
+Database system concepts ## Siberschatz, Abraham … et. Al. ** 20226
+Data and computer Communications ## Stallings, William ** 20223
+C How To program ## Deitel, H.M. & Deitel P.J. ** 50435
+Test Prep MCSE TCP/IP ## Erik, Rozell & Pablo, Mary  ** 20140
+Windows NT : Device driver development ## Viscarola, Peter G & Mason, W. Anthony ** 20210
+Essential Windows NT System Administrator ## Frisch, Aeleen. ** 20115
+Pratical C++ Programming ## Oualline, Steve ** 20160
+TCP/IP Network Administration ## Hunt, Craig ** 20175
+Essential Windows NT System Administrator ## Frisch, Aeleen. ** 20117
+Operating system concepts ## Siblberschatz, Abraham & Galvin, Peter Bear ** 20242
+Electronics Engineers' Handbook ## Fink, Donald G. & Donald, Christiansen. ** 6759
+Feedback Control Systems ## Philips, Charles L. & Harbor, Royce D. ** ECS-1032
+Introductory circuit analysis ## Boylestad, Robert L. ** Sadia-05
+Information Transmission, Modulation and Noise ## Schwartz, Mischa ** 6819
+ ##  ** 
+Computer Networks ## Tanenbaum, Andrew S. ** 7832
+Introduction to Mcroprocessors ## Mathur, Aditya P. ** 6834
+ ## --- ** 
+Advanced Computer Architecture: Parallelism, Scalability, Programmability ## Hwang, Kai. ** 19031
+Image Processing: Theory, Algorithms and architectures ## Sid-Ahmed, Maher. ** 12524
+Solid State Pulse Circuits ## Bell, David A ** 9553
+Oracle: Advanced information system ## Techmedia ** 14106
+Digital Systems: Principles and Applications ## Tocci, Ronald J, & Widmer, Neal S. ** Sadia-04
+Systems programming and operating systems ## Dhamdhere, D.M. ** 7813
+Theory and problems of Electronic Circuits ## Edminister, Joseph A. & Nahvi, Mahmood. ** 6861
+Systems analysis and Design methods ## Whitten, Jeffrey L. … et.al. ** F-06
+Theory and promblems of programming with Java ## Hubbard, John R. ** 19118
+Aliernatinng-current circuits  ## Kerehner, Russell M. & Coreoran, George F. ** 12227
+Data Structures and Algorithms  ## Aho, Affred V. … et. Al ** 19052
+Computer Aided Design: Software and Analytical Tools ## Krishnamoorthy, C.S & S. Rajeev ** 10219
+Aliernatinng-current circuits  ## Kerehner, Russell M. & Coreoran, George F. ** 12230
+Computer Dictionary ## Simmons, Ian ** 10001
+Introduction to Computers: Fundamentals of Computer Science ## Subramanian, N ** 14126
+AS/400 Architecture and Application: The database Machine ## Lawrence, Jill T. ** 19033
+Computers Information systems (5th edi) ## Hutchinson, Sarah E. ** 34251
+Electronic Devices and circuit theory ## Boylestad, Robert L. & Nashelsky, Louis. ** 5472
+Data Structures Using C and C++ ## Langsam, Yedidyah. … et.al. ** 19051
+Digital Integrated Electronics ## Taub, Herbert & Schilling, Donald. ** 10172
+ইন্টারনেট ## রহমান, মাহবুবুর এন্ড রেজা, কেএম আলী ** Z-CSE-0271
+The Universe in a Nutshell ## Hawking, Stephen W. ** 61910
+Electronic Devices and circuit theory ## Boylestad, Robert & Nashelsky, louis. ** 5472
+Data Structures Using C and C++ ## Langsam, Yedidyah. … et.al. ** Shumon-02
+An introduction to switching theory and digital electronics  ## Jain, Dr. V.K. ** 6781
+দুশো ছেষট্টি দিনে স্বাধীনতা ## কাদির, মুহাম্মদ নূরুল ** CSE-0267
+Integral Calculus including Differential equations ## Das, B.C. & Mukherjee, B.N. ** Rabby-10
+IBM PC Assembly Language and programming ## Abel, Peter ** 7822
+Introduction to Microprocessors ## Mathur, Aditya P. ** DEB-05
+Principles of Database systems ## Ullman, Jeffrey D. ** 6880
+আমার ছোটবেলা, 1971 এবং বাবা তাজউদ্দীন আহমদ ## রিমি, সিমিন হোসেন. ** 
+Heat and Thermodynamics ## Gupta, A.B & Roy, H.P. ** ECS-1037
+Digital computer fundamentals ## Bartee, Thomas C. ** 10228
+JavaTM: The complete Reference ## Schildt, Herbert. ** 12531
+Information Transmission, Modulation and Noise ## Schwartz, Mischa ** 6825
+Monochrome and colour television ## Gulati, R.R. ** 6799
+Digital Image processing ## Gonzalez, Rafeal C. & Woods, Richard E. ** No Number 
+Physics Part I  ## Resnick, Robert & Halliday, David. ** Rabby-24
+Computer organization ## Hamacher, V. Carl … et. Al ** 7615
+Communications Electronics: Principles and Applications ## Frenzel, Louis E. ** 53222
+Theory and problems of Electronic Circuits ## Edminister, Joseph A. & Nahvi, Mahmood. ** 6863
+Introduction to Turbo Prolog ## Townsend, Carl. ** 7617
+Theory and problems of complex variabvles with an introduction to conformal mapping and its application SI (Metric) edition ## Spiegel, Murray R. ** Rabby-06
+Theory and problems of programming with pascial ## Gottfried, Byron S. ** 20167
+Theory and problems of programming with pascial ## Gottfried, Byron S. ** 20168
+Learn Excel 5 for Windows Step-after-Step: The dummies 101TM way ## Harvey, Greg ** 10211
+Optical Fiber Communication: Principles and practice ## Senior, John M. ** 20244
+Digital Modulaton and Coding ## Wilson, Stephen G. ** ECS-1029
+বিজ্ঞান কল্পকাহিনী মেতসিস ## ইকবাল, মুহম্মদ জাফর ** Za-20
+Theory and problems of programming with pascial ## Gottfried, Byron S. ** 20169
+Theory and problems of programming with pascial ## Gottfried, Byron S. ** 6872
+Novell's Application Notes for NetWare 4.01 ## Novell Systems Research Department ** 9532
+Bioinformatics: A practical Guide to the Analysis of Genes and proteins ## Baxevanis, Andreas D. & Ouellette, B.F. Francis ** 55366
+Fundamental of Software Engineering ## Ghezzi, Carlo … et. Al ** 9528
+Theory and problems of programming with pascial ## Gottfried, Byron S. ** 20170
+Digital Systems: Principles and Applications ## Tocci, Ronald J, & Widmer, Neal S. ** 55379
+Peter Nortons' Inside the PC ## Norton, Peter & Goodman, John ** 20230
+The design And analysis of Computer Algorithms ## Aho, Affred V. … et. Al ** 58376
+Genetic Algorithms in Search, optimization and Machine Learning ## Goldberg, David E. ** 53040
+Microprocessors and Microcomputer-Based system Design ## Rafiquzzaman, Mohamed ** 9518
+Computer Networks ## Tanenbaum, Andrew S. ** 19045
+DC Electronics: Student Workbook ## Hearhkit educational systems  ** ECS-003
+Theory and problems of programming with pascial ## Gottfried, Byron S. ** 6877
+Management information system ## Laudon, Kenneth C & Laudon, Jane P.  ** 53238
+Dreams of a Final Theory ## Weinberg, Steven. ** Bi-13
+Introduction to Computer  ## Alamgir, Mohammed ** 55580
+Inside 3D Studio Max 2 ## Elliott, Steven … et.al ** 20119
+Microprocessor architecture, programming and applications with the 8085 ## Gaonkar, Ramesh S. ** 19096
+Proceedings workshop on prospects and problems of mobile and land phones in Bangladesh ## School of Engineering & Compter Science ** F-09
+Computers and information systems  ## Hutchinson, Sarah E. & Sawyer, Stacey C. ** 34245
+User's Guide ## Delphi ** ECS-1025
+Theory and problems of programming with pascial ## Gottfried, Byron S. ** 6874
+Theory and problems of Electronic Circuits ## Edminister, Joseph A. ** 6862
+Theory and problems of Digital principles  ## Tokheim, Roger L. ** 9534
+নিয়াজীর আত্মসমর্পণের দলিল ## সালিক, সিদ্দিক ** Z-CSE-0276
+Solving Interference problems in electronics ## Morrison, Ralph ** ECS 1041
+Theory and problems of programming with pascial ## Gottfried, Byron S. ** 6876
+Logic and Complexity ## Lassaigne, Richard & Rougemont, Michel de ** শিহাব-01
+The Elements of Artificial intelligence: An Introduction Using LISP ## Tanimoto, Steven L. ** 9523
+Monochrome and colour television ## Gulati, R.R. ** 6801
+Effectuve C++  ## Meyers, Scott ** 20108
+Microprocessors and microcomputers: Hardware and Software ## Tocci, Ronald J, & Ambrosio, Frank J. ** 34230
+Theory and problems of programming with pascial ## Gottfried, Byron S. ** 6876
+Fiber Optics Handbook for Engineers and Scientists ## Allard, Frederick C. ** 7828
+Digital Principles and Application  ## Malvino, Albert Paul & Leach, Donald P. ** 6803
+Introduction to Microprocessors ## Mathur, Aditya P. ** 6828
+Operational amplifiers and integrated circuits ## Coughlim, Robert F. & Driscoll, Frederick F. ** 
+Networking for dummies ## Lowe, Doug ** 12262
+Information Transmission, Modulation and Noise ## Schwartz, Mischa ** 6824
+Computer Graphics : A programming Approach ## --- ** 7834
+Introduction to Microprocessors ## Mathur, Aditya P. ** 6831
+Electronic communication systems ## Kennedy, George ** 6062
+Systems analysis and business applications ## Naik, Rajesh & Kishore, Swapna. ** 10196
+The Art of Computer programming ## Knuth, Donald E. ** Rabby-08
+The Intel Microprocessors:  ## Brey, Barry B. ** Bi-04
+Programming ANSI C ## Balagurusamy, E. ** Rabby-05
+Theory and problems of Data Structure ## Lipschutz, Seymour ** 5620
+Hughes Electrtical Technology ## Hughes, Edward. ** Bi-10
+Solid State Electronic Devices  ## Streetman, Ben G, ** Bi-12
+Borland C++ BuilderTM: The complete reference ## Schildt, Herbert & Guntle, Greg ** Rabby-11
+Theory and problems of programming with pascial ## Gottfried, Byron S. ** DEB-03
+Microprocessor architecture and microprogramming : A stage machine approach ## Carter, John W. ** ECS-1038
+Introduction to Microprocessors ## Mathur, Aditya P. ** 6835
+Borland C++ 3.0 for Windows 3.1 programming with object windows  ## Fernandes, Louis. ** ECS-1027
+The Motorola MC68000 Microprocessor family: Assembly  language, interface design and system design ## Harman, Thomas L. & Hein, David T. ** CS-1007
+Semiconductor-Device Electronics ## Warner, R.M. & Grung, B.L. ** 9552
+C++: An Introduction to programming ## Liberty, Jess & Keogh, Jim ** 20095
+Teach yourself windows 98 in 21 days ## Cassel, Paul & Hart, Michael. ** 20258
+Advanced Unix : A programmer's Guide ## Prata, Stephen. ** 10207
+ASP/MTS/ADSI Web Secuirty ## Harison, Richard. ** 40262
+Operational amplifiers and integrated circuits ## Coughlim, Robert F. & Driscoll, Frederick F. ** 9544
+Monochrome and colour television ## Gulati, R.R. ** 6796
+কম্পিউটারের চমক ## রহমান, মাহবুবুর  ** Za-CSE-0264
+কম্পিউটারের চমক ## রহমান, মাহবুবুর  ** Za-CSE-0270
+ইন্টারনেট ## রহমান, মাহবুবুর এন্ড রেজা, কেএম আলী ** Za-CSE-0273
+বুবুনের বাবা ## ইকবাল, মুহম্মদ জাফর ** Za-03
+বাচ্চা ভয়ংকর কাচ্চা ভয়ংকরঙ ## ইকবাল, মুহম্মদ জাফর ** Za-01
+Digital signal processing ## Oppenheim, Alan V. & Schafer, Ronald W. ** 7823
+Satellite Communicatoins ## Prata, Stephen. ** 7829
+Matrix, Finite element, computer and structural analysis  ## Mukhopadhayay, Madhujit ** 6881
+মুক্তিযুদ্ধের নির্বাচিত গল্প ## মিলন, ইমদাদুল হক ** Z-CSE-0274
+Multimedia for decision makers ## Burger, Jeff ** 9556
+Monochrome and colour television ## Gulati, R.R. ** 6795
+Introductory circuit analysis ## Boylestad, Robert L. ** Sadia-03
+Optoelectronics Sesigner's catalog ## Hewlatt-packard ** ECS-1005
+Turbo Algorithms : A programmer's Reference ## Weiskamp, Keith … et.al ** 4874
+Computer System Today ## Basandra, Suresh K. ** F-08
+Theory and problems of Electronic Circuits ## Edminister, Joseph A. ** 6868
+Proceedings of 5th internatioinal conference on Computer and information technology ## ICCIT ** Fuad-09
+Monochrome and colour television ## Gulati, R.R. ** 6800
+Teach yourself data structures and algorithms in 24 hours ## Lafore, Robert ** 9520
+Windows NT: Enterprise Networking ## Velte, Toby J. & Velte, Anthony T. ** 20211
+Introduction to Microprocessors ## Mathur, Aditya P. ** 6830
+Mastering Visual J++ ## Holzner, Steven. ** 19081
+Understanding Data communications  ## Held, Gilbert … et. Al ** 20191
+Introduction to Microprocessors ## Mathur, Aditya P. ** 6829
+Introduction to SPSS/PC+5.0 and Data Entry  ## Huizingh, Eelko. ** 12516
+Economics ## Samuelson, Paul A. & Nordhaus, William D. ** Rabby-07
+PC Upgrading & Maintenance ## PC Novice/Smart Computing ** 19110
+Digital Logic and Computer Design ## Mano, M. Morris  ** 6774
+Upgrading, Maintaining, and Servicing IBM PCs and Compatibles ## Leventhal, Lance A. ** 7811
+JavaTM2: The complete Reference ## Schildt, Herbert ** 4419
+Electronics Devices and Circuits Theory  ## Boylestad, Robert L. & Nashelsky, Louis. ** 34271
+The Intel Microprocessors:  ## Brey, Barry B. ** Rabby-01
+Discrete Mathematical structure ## Kolman, Bernard … et.al ** 10180
+Digital signal processing: Principles, Algorithms and applications ## Proakis, John G. & Manolakis, Dimitris G. ** 50451
+Principles of Database systems ## Subrahamanian, V.S. ** 53002
+Check Point NG VPN-1/FireWall-1 ## Noble, Jim … et. Al. ** 53042
+Introduction to computers ## Alamgir, Mohammed ** 55581
+Object-Oriented systems analysis and Design using UML ## Bennett, Simon & McRobb, Steve. … et. Al ** 53033
+Op-Amps and Linear Integrated Circuits  ## Gayakwad, Ramakant A. ** 53014
+Check Point NG VPN-1/FireWall-1 ## Noble, Jim … et. Al. ** 53041
+Principles of Multimedia database systems ## Subrahamanian, V.S. ** 53003
+Digital Signal Processing ## Proakis, John G. & Manolakis, Dimitris G. ** 56155
+Digital processing of speech signals  ## Rabiner, L.R. & Schafer, R.W. ** 50448
+Fundamental Concepts of Bioinformatics ## Krane, Dan E. & Raymer, Michael L. ** 58392
+Using Microsoft PowerPoint 97 ## Stevenson, Nancy … et.al ** 20201
+Optical Communication systems ## Gowar, John ** 20150
+Using Visual FoxPro6 ## Bazian, Menachem … et.al. ** 20208
+Teach yourself windows98 in 21days ## Cassel, Paul & Hart, Michael. ** 20257
+Theory and problems of programming with java ## Hubbard, John R. ** 20247
+Data and computer Communications ## Stallings, William ** 20221
+Unix System programming using C++ ## Chan, Terrence ** 20195
+Unix Network programming: The Sockets Networking API ## Stevens, W. Richard … et.al ** 58402
+Computer Graphics :Principles and practice ## Foley, James D. … et.al ** 20098
+The C++ programming language  ## Stroustrup, Bjarne. ** 20096
+Turbo C++ For windows inside & Out ## Schildt, Herbert ** 6758
+ADSP-2100 Family User's Manual ## Analog Devices ** No Number 
+Theory and problems of Data Structure ## Lipschutz, Seymour ** Shumon-04
+Test your skills in C ## Selvi, S. Thamarai & Murugesan, R. ** Shumon-05
+Oracle Designer/2000 Handbook ## Dorsey, Dr. Paul & Koletzke. ** 19107
+Teach Yourself Visual FoxPro 5.0 for Windows ## King, Nelson. ** 19130
+Teach Yourself C++,  ## Schildt, Herbert ** 19123
+The Concise PC Notebook and Laptop User's Guide ## Gookin, Dan ** 10174
+Software Engineering ## Pressman, Roger S. ** 14119
+Digital Signal Processing ## Proakis, John G. & Manolakis, Dimitris G. ** 53231
+Algorithm Design ## Kleinberg, Jon & Tardos, Eva. ** Shumon-06
+The computer Virus protection handbook ## Haynes, Colin ** 19125
+Visual J++ 6 from the Ground Up ## Maso, Brian. ** 19141
+Basic VLSI Design ## Pucknell, Douglas A. … et. Al. ** 10237
+Windows NT Server 4 ## Cowart, Robert & Waters, Boyd ** 12963
+Windows programming Using winscope ## Swan, Tom ** 12557
+Visual C++ Multimedia Adventure Set ## Aitken, Peter & Jarol, Scott. ** 10206
+Troubleshooting netware 3.12 ## Neff, Ken & Doering, David ** ECS-1040
+1992 Data Converter Reference Manual ## Analog Devices ** ECS-1002
+1992 Data Converter Reference Manual ## Analog Devices ** ECS-1004
+The Intel Microprocessors:  ## Brey, Barry B. ** 56150
+Upgrading and repairing PCs ## Norton, Peter & Desmond, Michael ** 20159
+Software Engineering with Java ## Schach, Stephen R. ** 20254
+Object-Oriented programming in JavaTM ## Waitb, Mitchell. ** 20148
+Test Prep MSSE Microsoft Windows 98 ## Guilbault, Alain. ** 20141
+Using microsoft SQL Server 6.5 ## Wynkoop, Stephen ** 20204
+Teach Yourself Windows 98 in 24 Hours ## Perry, Greg ** 20189
+Digital Signal processing: A computer-based approach ## Mitra, Sanjit K. ** 50455
+Management of technology: the key to comptitiveness and wealth creation ## Khalil, Tarek M. ** 55372
+Data Communications and network security ## Carr, Houston H. & Snyder, Charles A. ** 53223
+User's Manual and technical reference ## Hyosung computer ** ECS-1011
+Visual Basic Multimedia adventure set ## Jarol, Scott ** 9531
+The IBM PC & PS/2 ## Norton, Peter & Wilton, Richard. ** 9529
+Power Electronics: Circuits, Devices and applications ## Rashid, Muhammad H. ** 9546
+Teach yourself ActiveX Control programming with Visual Basic 5 in 21 Days  ## Brophy, Keith & Koets, Timothy. ** 20085
+Windows NT : Enterprise Networking ## Velte, Toby J. & Velte, Anthony T. ** 20212
+Oracle8: The complete Reference ## Koch, Georage & Loney, Kevin ** 14119
+Microcontrollers: Architecutre, programming, interfacing and system design  ## Kamal, Raj ** 58396
+Multimedia communications: Direction and innovations ## Gibson, Jerry D. ** 52997
+Object-oriented programming in turbo C++ ## 19102 ** 
+Artificial intelligence: A new synthesis  ## Nilsson, Nils. ** 40261
+ওয়েব পাবলিশিং ## সরকার, সুহৃদ ** 34281
+Insdie the Java Virtual Machine ## Venners, Bil ** 40287
+Head First Networking ## Adnerson, Al & Benedetti, Ryan. ** 60081
+Digital Signal processing ## Proakis, John G. & Manolakis, Dimitris G. ** 56156
+Network Cabling Handbook ## Clark, Chris ** 53032
+Java How program ## Deitel, H.M. & Deitel P.J. ** 19075
+Electronic Communications ## Roddy, Dennis & Coolen, John ** No Number 
+Information Transmission, Modulation and Noise ## Schwartz, Mischa ** 6763
+Information Transmission, Modulation and Noise ## Schwartz, Mischa ** 6818
+Nonlinear Fiber Optics ## Agrawal, Govind P. ** 58375
+Tips on physics ## Feynman, Richard P. … et. Al ** 58409
+Digital Signal processing: A computer-based approach ## Mitra, Sanjit K. ** 50456
+Software Reliability Engineering: More Reliable Software Faster and Cheaper ## Musa, John D. ** 55559
+Satellite Communicatoins ## Roddy, Dennis  ** 53244
+C++ How to Program ## Deitel, H.M. & Deitel P.J. ** 50443
+Compilers: Principles, Techniques & Tools ## Aho, Alfred V. & Lam, Monica S. … et. Al. ** 58400
+Introduction to Parallel computing ## Grama, Ananth & Gupta, Anshul … et. Al. ** 50446
+Mobile and Wireless Design Essentials ## Mallick, Martyn  ** 53020
+Object-Oriented systems analysis and Design using UML ## Bennett, Simon & McRobb, Steve. … et. Al ** 53034
+Optical Fiber Communication: Principles and systems ## Selvarajan, A & Kar, Subrat … et. Al ** 53011
+Digital Signal processing ## Proakis, John G. & Manolakis, Dimitris G. ** 50452
+Natural Language Processing: An information Access perspective  ## Murthy, Kavi Narayana. ** 58372
+Wireless and cellular telecommunications ## Lee, William C.Y. ** 55561
+Electronic Communication systems ## Kennedy, George & Davis, Bernard. ** 55370
+Introduction to Nanotechnology  ## Poole, Charles P. & Owens, Frank J. ** 58379
+Formal Languages and automata ## Linz, Peter ** 55364
+Computer organization and design: The hardware/Software Interface ## Patterson, David A. & Hennessay, John H. ** 56160
+Applying UML And Patterns  ## Larman, Craig ** 50428
+Optical Networks: A practical perspective ## Ramaswami, Rajiv & Sivarajan, Kumar N. ** 53017
+The SAP R/3TM Handbook  ## Hernandez, Jose Antonio ** 19117
+Using Visual C++6 ## Gregory, Kate ** 19138
+JavaBeansTM Programming from the Ground Up  ## O'Neil, Joseph ** 20215
+An introduction to Database system ## Date, C.J. ** 20087
+Operating System Concepts ## Silberschatz, Abraham & Galvin, Peter Bear … et. Al ** 19104
+Local Area Networks ## Hodson, Peter ** 19079
+The Intel Microprocessors:  ## Brey, Barry B. ** 19127
+The HTML Example Book  ## Farrar, Edward & Smith, Norman E. ** 19126
+Fundamental of Computer Algorithms  ## Horowitz, Ellis & Sahni, Sartaj. ** 19058
+Ultimate Visual Dictionary 21st Century Supplement ## Dorling kindersley ** 52989
+Microelectronics : Digital and Analgo circuits and systems  ## Millman, Jacob. ** 12239
+Bioinformatics: Sequence and Genome Analysis  ## Mount, David W. ** 55365
+Programming Basic ## Balagurusamy, E. ** 10224
+Java How to program ## Deitel, H.M. & Deitel P.J. ** 19074
+Test Prep MCSE Networking Essentials  ## 20139 ** 
+Beginning Visual Basic 6 ## Wright, Peter ** 19035
+Measurement system: Application and Design ## Doebelin, Ernest O. ** 12275
+Getting Started with Matlab 7 ## Pratap, Rudra. ** 53234
+Digital Logic and Computer Design ## Mano, M. Morris  ** 20107
+C++: The complete Reference ## Schildt, Herbert ** 20218
+Using Visual C++ 6 ## Gregory, Kate ** 20206
+Microsoft Certified Systems Engineer Visual Basic 5.0 Exam Guide  ## 14136 ** 
+The Design of the Unix Operating System  ## Bach, Maurice J. ** 20179
+Artificial intelligence ## Rich, Elaine & Knight, Kevin ** 19043
+Computer-Controlled systems: Theory and Design ## Astrom, Karl J. ** 10192
+MCSD: SQL Server 6.5 Database Design Study Giude  ## Hough, Kevin ** 19085
+Computer Architecture and Organization ## Hayes, John P. ** 19039
+Artificial intelligence  ## Winston, Patrick Henry ** 20089
+Elements of Discrete mathematics ## Liu, C.L. ** 12268
+Unix System programming using C++ ## Chan, Terrence ** 20196
+Inside the Java Vierutal Machine  ## Venners, Bil ** 20120
+Theory and Problems of Introduction to Digital System ## Palmer, Jaames E. & Perlman, Dvaid E. ** 20126
+Introductory circuit analysis ## Boylestad, Robert L.  ** 19070
+Digital Systems: Principles and Applications ## Tocci, Ronald & Widmer, Neal S. ** 56343
+পিসি হার্ডওয়্যার ও এ্যাসেম্বল গাহইড ## খান, মো: আজিজুর রহমান ** 56356
+TCP/IP Illustrated ## Wright, Gary R. & Stevens, W. Richard ** 20173
+C++ Solutions: Companion to the C++ Programming Language ## Vandevoorde, David ** 20093
+Peter Nortons' Inside the PC ## Norton, Peter. ** 12553
+Operating system concepts ## Silberschatz, Abraham & Galvin, Peter Bear … et. Al ** 19103
+Computer Networks ## Tanenbaum, Andrew S. ** 12244
+A text book of Electrical technology  ## Units, S.I. ** 12246
+Compter Graphics  ## Hearn, Donald & Baker, M. Pauline ** 19040
+Solid-State Devices and Circuits  ## Bali, S.P. ** 12231
+Developing Client/Server Applications with Oracle Developer/2000TM ## Hipsley, Paul ** 14128
+Java Database Development ## Rinehart, Martin ** 20133
+Peter Nortons' Inside the PC ## Norton, Peter & Goodman, John ** 20233
+Visual Studio 6: The Complete Reference ## Mueller, John Paul ** 19142
+Visual Basic from the Ground UP  ## Cornell, Gary ** 19140
+Essential Windows NT System Administrator ## Frisch, Aeleen. ** 19056
+Digital Integrated Electronics ## Taub, Herbert & Schilling, Donald. ** 12270
+Communication Systems ## Carlson, A. Bruce ** 7817
+C++ How to Program ## Deitel, H.M. & Deitel P.J. ** 34188
+Using Visual Basic 6 ## Reselman, Bob … et.al ** 19137
+Operating System Concepts ## Silberschatz, Abraham & Galvin, Peter Bear … et. Al ** 20238
+C++ How to Program ## Deitel, H.M. & Deitel P.J. ** 34189
+Telecommunication switching systems and networks ## Viswanathan, Thiagarajan. ** 53248
+MCSE: The Core Exams In a Nutshell ## Moncur, Michael ** 19094
+How the Internet works  ## Gralla, Preston. ** 40286
+Fiber Optics Test And Measurement ## Derickson, Dennis, ** 53232
+Office XP: The complete Reference ## Nelson, Stephen L. ** F-05
+Data Structure  ## Reingold, Edward M. & Hansen, Wilfred J. ** DEB-01
+Networking for dummies ## Lowe, Doug ** 12545
+Principles of Electronics ## Mehta, V.K. ** 12548
+Theory and Problems of Intrdroduction to Computer science ## Scheid, Francis  ** 7603
+Introduction to Digital Communication Switching ## Ronayne, John ** 9551
+Unix Network programming Volume-2 ## Stevens, W. Richard  ** 58403
+Digital Principles and Application  ## Malvino, Albert Paul & Leach, Donald P. ** 6807
+Microsoft SQL Server 2008 Business Intellgence Development and Maintaince ## Veerman, Erik … et.al ** 20205
+Data and computer Communications ## Stallings, William ** 19048
+Introduction to Computers ## Alamgir, Mohammed ** 55573
+Linear Application Handbook: A guide to linear circuit design 1990 ## Linear Technology Corporation ** ECS-0202
+Graph Theory: Modeling, Applications and Algorithms ## Agnarsson, Geir & Greenlaw, Raymond ** 61357
+Microprocessor architecture, programming and applications with the 8085 ## Gaonkar, Ramesh S. ** 24226
+Theory and problems of programming with pascial ## Gottfried, Byron S. ** 6875
+The Complete linux kit ## Tauber, Daniel A. ** 10203
+Graph Theory and Its applications ## Balakrishnan, R … et.al. ** 53019
+Object-Oriented Analysis and design with applications ## Booch, Grady. ** 61370
+TCP/IP Network Administration ## Hunt, Craig ** 19121
+Java In a nutshell ## Flanagan, David. ** 20129
+Advanced Graphics programming in C and C++ ## Stevens, Roger T. & Watkins, Christopher D. ** 14032
+Multimedia communications: Direction and innovations ## Gibson, Jerry D. ** 52999
+Multimedia communications: Direction and innovations ## Gibson, Jerry D. ** 52996
+Multimedia communications: Direction and innovations ## Gibson, Jerry D. ** 52998
+Computer Networks ## Tanenbaum, Andrew S. ** 20099
+An Integrated Approach to Software Engineering ## Jalote, Pankaj ** 10183
+Radio Engineering ## Mithal, G.K. & Mittal, Ravi ** 6787
+Data and computer Communications ## Stallings, William ** 20224
+Let us C ## Kanetkar, Yashavant. ** shu-01
+Oracle Database 10g: The complete Reference ## Loney, Kevin ** 53023
+PC Upgrading & Maintenance ## Train, Will ** 19110
+Teach Yourself C++ ## Schildt, Herbert ** PGD-01
+Theory and problems of Electronic Circuits ## Nahvi, Mahmood & Edminister, Joseph A. ** 6864
+Operating System Concepts ## Silberschatz, Abraham & Galvin, Peter Bear. ** 20210
+FoxPro 2.5/2.6 ## Dickler, Howard ** 9526
+Telecommunication principles ## Renton, R.N. ** 9536
+.Net Framewark Essentials ## Thai, Thuan & Lam, Hoang Q. ** 40255
+MCSE: TCP/IP for NT Server 4 Study Guide ## Lammle, Todd ** 19091
+Computer Architecture and organization ## Hayes, John P. ** 7621
+Computer Architecture and organization ## Hayes, John P. ** 12272
+Principles of Artifical intelligence ## Nilsson, Nils. ** 12232
+SCO Unix operating system ## Opten system software ** ECS-1026
+C++ How to program ## Deitel, H.M. & Deitel P.J. ** 40264
+HTML 4.0 ## Mack, E. Stephen & Platt, Janan ** 19061
+Satellite and Cable TV ## Ponnappa, B.M. ** 10217
+Teach Yourself ActiveX Programming in 21 days ## Kaufman, Sanders … et. Al  ** 20185
+Digital Logic and Computer Design ## Mano, M. Morris  ** 6777
+Bangladesh Science & Technology Abstracts Vol-23 ## BANSDOC ** No Number 
+SDC Workshop report on information infrastructure in SAARC region ## BANSDOC ** No Number 
+Bangladesh Science & Technology Abstracts Vol-24 ## BANSDOC ** No Number 
+Computer and information systems ## Hutchinson, Sarah E. & Sawyer, Stacey C. ** 34249
+Computer and information systems ## Hutchinson, Sarah E. & Sawyer, Stacey C. ** 34248
+Computer and information systems ## Hutchinson, Sarah E. & Sawyer, Stacey C. ** 34250
+Computer and information systems ## Hutchinson, Sarah E. & Sawyer, Stacey C. ** 34244
+Computer and information systems ## Hutchinson, Sarah E. & Sawyer, Stacey C. ** 34242
+The Intel Microprocessors:  ## Brey, Barry B. ** 53251
+Physics : Volume Two ## Halliday, David & Resnick, Robert … et.al ** No Number 
+Unix Power Tools ## Peek, Jerry & O'Reilly, Tim … et. Al. ** 10199
+Inside Windows 2000 Server ## Techmedia  ** 40288
+TCP/IP Illustrated ## Stevens, W. Richard ** 20142
+LISP ## Winston, Patrick Henry & Horn, Berthold Klaus Paul ** 40295
+Elements of the theory of computation ## Lewis, Harry R. & Papadimitriou, Christos H. ** 40283
+Introduction to Automata theory languages and communication ## Hopcroft, John E. & Ullman, Jaffrey D. … et. Al. ** 40289
+Elements of Neural Networks ## Mehrotra, Kishan & Mohan, Chilukuri K. … et. Al. ** 40282
+C: The complete Reference  ## Schildt, Herbert ** 7820
+Example and Exercise in Telecommunication ## Ramabhadran, S. ** 9538
+Systems Analysis and Design ## Awad, Elias M. ** 12542
+Introduction to Microprocessors ## Mathur, Aditya P. ** 6826
+Head First PMP ## Greene, Jennifer & Stellman, Andrew ** 60076
+Computer Graphics ## Shirley, Peter & Marschner, Steve ** 60071
+Computer and information systems ## Hutchinson, Sarah E. & Sawyer, Stacey C. ** 34243
+How Computers work  ## White, Ron ** 34205
+The Road To Reality ## Penrose, Roger ** 61899
+The internet book ## Comer, Douglas E. ** CSE-A5
+The Intel Microprocessors:  ## Brey, Barry B. ** 53250
+Programming Languages Concepts and Constructs ## Sethi, Ravi. ** 19112
+Oracle Database 10g: The complete Reference ## Loney, Kevin ** 53024
+Data Structure and Algoritims  ## Aho, Alfred V. & Hopcroft, John E. … et.al ** 60073
+Computer architecture A Quantitative Approach ## Patterson, David A. & Hennessay, John H. ** 34197
+Upgrading and repairing PCs ## Mueller, John Paul ** 19133
+The Art of Computer programming ## Knuth, Donald E. ** 58391
+Lasers and optical Engineering  ## Das, P. ** 10188
+Optical Fiber Communications: Principles and practice  ## Senior, John M. ** 10233
+Programming with JAVA ## Balagurusamy, E. ** 19115
+Theory and problems of programming with C ## Gottfried, Byron S. ** 7602
+Mastering Web Design ## McCoy, John ** 12528
+Java Software Solutions: Fundations of program design ## Lewis, John & Loftus, William. ** 19076
+Computer organization and design: The hardware/Software Interface ## Hennessy, John L. & Patterson, David A. ** Bi-01
+Principlesof Distrubuted Database systems ## Ozsu, M. Tamer & Valduriez, Patrick. ** 40303
+Computer Graphics ## Angel, Adward ** 12285
+Hardware Bible ## Roasch, Winn L. ** 14115
+Distributed operating systems: Concepts and Design ## Sinha, Pradeep K. ** 34201
+স্মারকগ্রন্থ  ## রহমান, মো: জিল্লুর ** 65652
+JAVA 1.2 In record Time  ## Holzner, Steven. ** 19072
+C++: The complete Reference ## Schildt, Herbert ** 20216
+Introduction to Artifical intelligence and Expert Systems  ## Patterson, Dan W. ** 19068
+Modern Digital and communication systems ## Lathi, B.P. ** 53037
+Head First Design Patterns ## Freeman, Eric & Freeman, Elisabeth. ** 60080
+Operating System Concepts with JAVA ## Silberschatz, Abraham & Galvin, Peter Bear. ** 50475
+Object-Oriented programming with C++ ## Balagurusamy, E. ** 10221
+The Web of life  ## Capra, Fritjof. ** Bi-05
+Microelectronics circuits and devices ## Horenstein, Mark N. ** ECS-1043
+Digital Systems: Principles and Applications ## Tocci, Ronald & Widmer, Neal S. ** 56342
+MCSE: NT Workstation 4 Study Guide ## Perkins, Charles, Strebe, Matthew … et.al. ** 19088
+Discrete Mathematics and its applications ## Rosen, Kenneth H. ** 34255
+Borland C++4 Object-Oriented programming ## Faison, Ted ** 9525
+Microproessor Architecture, programming and applications with the 8085 ## Gaonkar, Ramesh S. ** 34223
+8085 Assembly Language: Programming and applications ## Awate, S.P. ** 7821
+Introduction to Multichip modules ## Sherwani, Naveed, Yu, Qiong … et.al. ** ECS-1042
+1992 Linear Databook Supplement ## Linear Technology Corporation ** ECS-1006
+Operating systems concepts  ## Silberschatz, Abraham & Galvin, Peter Baer. ** 20239
+Hot Links: The guide to linking computers  ## Eppley, Mark & Hakala, David ** 10175
+The 80x86 family: Design, Programming and interfacing ## Uffenbeck, John ** 53031
+Your Unix: The Ultimate Guide ## Das, Sumitabha. ** F-01
+C++ How to program ## Deitel, H.M. & Deitel P.J. ** 34192
+Java for Dummies ## Walsh, Aron E. ** 12263
+HTML: The complete Reference  ## Powell, Thomas A. ** 19062
+Microwave Engineering ## Das, Annapurna & Das, Sisir K. ** 55556
+Textbook of Electrical technology ## Theraja, B.L. & Theraja, A.K. ** 12251
+Discrete Mathematics and its applications ## Rosen, Kenneth H. ** 34258
+Modern Digital and Analog Communication Systems ## Lathi, B.P. ** 53038
+CAD/CAM:Computer-Added Design and Manufacgturing ## Groover, Mikell P. & Jimmers, Emory W. ** 34193
+A First Course in Digital Systems Design: An Integrated Approach ## Uyemura, John P. ** 40256
+Programming Languages Design and Implementation ## Pratt, Terrence W. & Zelkowitz, Marvin V. ** 20165
+Modern Digital and Analog Communication Systems ## Lathi, B.P. ** 53036
+An introduction to Database system ## Date, C.J. ** 19069
+Biomedical digital signal processing ## Tompkins, Willis J. ** 58384
+Telecommunications and the computer ## Martin, James ** 20148
+Microelectronics ## Millman, Jacob & Grabel, Arvin ** 12239
+Advanced Modems for Dummies ## Rathbone, Tina ** 12555
+Theory and problems of Electronic Circuits ## Edminister, Joseph A. ** 6866
+Mastering Windows NT Server 4 ## Minasi, Mark … et.al. ** 12532
+Using Adobe Photoshop 5 ## Giordan, Dan & Moniz, Steven ** 19135
+Understanding Hard Disk Management on the PC ## Kamin, Jonathan. ** 10182
+Frontpage 97 ## Maloney, Eric & Nossiter, Joshua C. ** 20199
+The IBM PC & PS/2 ## Norton, Peter & Wilton, Richard. ** 7619
+Wireless Communications and Newtorking ## Stallings, William ** 50477
+Introduction to Telephony and telegraphy ## Jolley, E.H. ** 9550
+Oracle Database 10g: The complete Reference ## Loney, Kevin ** 53022
+Fundamentals of Data Structures in C++ ## Horowitz, Ellis & Sahni, Sartaj … et.al. ** 60075
+Voice Over IP Technologies: Building the Converged Network ## Miller, Mark A. ** 53044
+Modern C++ Design: Genetic Programming and Design Patterns Applied ## Alexandrescu, Andrei ** 61360
+Digital Signal processing applications using the ADSP-2100 Family ## Analog Devices ** No Number 
+Linux: Configuratioin And installation ## Patrick … et. Al. ** 12966
+The Art of Computer programming ## Knuth, Donald E. ** 40305
+Bioinformatics Computing  ## Bergeron, Bryan ** 58412
+The Design of the Unix Operating System  ## Bach, Maurice J. ** 20180
+Using SAP R/3 ## ASAP World Consultancy … et.al. ** 20203
+Discrete Mathematics and its applications ## Rosen, Kenneth H. ** 34261
+Telecommunication switching systems and networks ## Viswanathan, Thiagarajan. ** 9555
+The C progrmming language ## Kernighan, Brain W & Ritchie, Dennis M. ** 20184
+Programming in Prolog ## Clocksin, W.F. & Mellish, C.S. ** 7826
+Digital Logic and Computer Design ## Mano, M. Morris  ** 6775
+The Essentials of User Interface Design ## Cooper, Alan  ** 52991
+Wireless Broadband Networks Handbook 3G, LMDS, and Wireless internet ## Vacca, John R. ** 53039
+Digital Fundamentals  ## Floyd, Thomas L. ** 10191
+The Essentials of User Interface Design ## Cooper, Alan  ** 52990
+কমপিউটার হার্ডওয়্যার মেইনট্যানেন্স এন্ড ট্রাবলসুটিং ## চৌধুরী, তারিকুল ইসলাম এবং খান, মো: আজিজুর রহমান ** 34274
+Windows NT 4 Advanced Programming ## Rajagopal, Raj & Monica, Subodh P. ** 20209
+Optical Networks: A practical perspective ## Ramaswami, Rajiv & Sivarajan, Kumar N. ** 53018
+Mobile Cellular Telecommunications: Analog and Digital Systems ## Lee, William C.Y. ** 20236
+An Introduction to Analog and Digital Communications ## Haykin, Simon ** 12269
+Oxford Advanced learner's Dictionary  ## Hornby, A.S. ** 10236
+Electronic Devices and Circuits ## Mottershead, Allen ** 5469
+Digital Systems: Principles and Applications ## Tocci, Ronald & Widmer, Neal S. ** 19053
+Relational Database: Theory and practice ## Occardi, Val ** 10178
+জনযুদ্ধের গণযোদ্ধা ## ভূইয়া, মেজর কামরুল হাসান ** Z-CSE-0275
+dBase III PLUS programmer's Reference Guide ## Simpson, Alan ** 7819
+Optical Fibres and bibre optic communications systems ## Kumar Sarkar, Subir ** 53009
+Unix In a nutshell : A desktop Quick Reference for system V & solaris 2.0 ## Gilly, Daniel. ** 20193
+TCP/IP Network Administration ## Hunt, Craig ** 20176
+Information Transmission, Modulation and Noise ## Schwartz, Mischa ** 6820
+Digital Circuits and Logic Design ## Lee, Samuel C. ** 40272
+Proceedings of the Conference on Engineering research innovation and education, 2010 ## Islam, Prof. Dr. Md. Akhtarul … et.al. ** ERIE-01
+Proceedings of the Conference on Engineering research innovation and education, 2010 ## Islam, Prof. Dr. Md. Akhtarul … et.al. ** ERIE-02
+Proceedings of the Conference on Engineering research innovation and education, 2010 ## Islam, Prof. Dr. Md. Akhtarul … et.al. ** ERIE-03
+Proceedings of the Conference on Engineering research innovation and education, 2010 ## Islam, Prof. Dr. Md. Akhtarul … et.al. ** ERIE-04
+Proceedings of the Conference on Engineering research innovation and education, 2010 ## Islam, Prof. Dr. Md. Akhtarul … et.al. ** ERIE-05
+Proceedings of the Conference on Engineering research innovation and education, 2010 ## Islam, Prof. Dr. Md. Akhtarul … et.al. ** ERIE-06
+Proceedings of the Conference on Engineering research innovation and education, 2010 ## Islam, Prof. Dr. Md. Akhtarul … et.al. ** ERIE-07
+Proceedings of the Conference on Engineering research innovation and education, 2010 ## Islam, Prof. Dr. Md. Akhtarul … et.al. ** ERIE-08
+Flash 4 Web Animation f/x & Desgin ## Milburn, Ken & Croteau, John ** Alm-14
+Compiler design in C ## Holub, Allen I. ** Alm-06
+Fundamentals of Algorithmics ## Brassard, Gilles & Bratley, Paul. ** Alm-02
+Practice and principles of Compiler building with C ## Alblas, Henk & Nymeyer, Albert. ** Alm-01
+Information systems for you ## Doyle, Stephen ** Alm-15
+Data Structures and program Design ## Kruse, Robert L. ** Alm-04
+Introduction to Algorithms  ## Cormen, Thomas H. …et.al ** Alm-13
+Mastering Delphi 5 ## Cantu, Marco ** Alm-10
+Complete Guide to Linux ## Norton, Peter & Griffith, Arthur  ** Alm-11
+Programming windows with MFC ## Prosise, Jeff ** Alm-03
+Fundamentals of Data Structures in C++ ## Horowitz, Ellis & Sahni, Sartaj … et.al. ** Alm-07
+SCO Unix operating system ## Open systems Software ** Alm-08
+Windows 98 programming for dummies ## Davis, Stephen R. & Simon, Richard ** Alm-09
+Introduction to methods of numerical analysis  ## Sastry, S.S ** Alm-16
+Assembly Language for the PC ## Socha, John & Norton, Peter ** Alm-17
+Red Hat Linux 6 ## Pitts, David ** Alm-05
+Radio Engineering ## Mithal, G.K. & Mittal, Ravi ** 6791
+Unix for Dummies ## Young, Margaret Levine & Levine, John R. ** CSE-A6
+Microprocessors and interfacing programming and hardware ## Hall, Douglas V. ** 12525
+C++ Neural Networks and Fuzzy logic ## Rao, Valluru & Rao, Hayagriva. ** 10200
+Electronic Communication systems ## Kennedy, George ** 6898
+The 8088 and 8086 microprocessors programming interfacing, software, hardware and applications ## Triebel, Walter A. & Singh, Avtar. ** 7616
+Computer Graphics ## Hearn, Donald & Baker, M. Pauline ** 19041
+Digital Logic and Computer Design ## Mano, M. Morris  ** 6773
+Digital Telephony  ## Bellamy, John ** 12278
+Physics part II ## Halliday, David & Resnick, Robert ** 6843
+Physics part II ## Halliday, David & Resnick, Robert ** 6837
+Physics part II ## Halliday, David & Resnick, Robert ** 6841
+Physics part II ## Halliday, David & Resnick, Robert ** 6845
+Physics part II ## Halliday, David & Resnick, Robert ** 6840
+Physics part II ## Halliday, David & Resnick, Robert ** 6842
+Maple V Flight Manual ## Elis, Wade … et.al ** Fuad-04
+Maple V Release 3 Notes ## Brook/Cole Publishing Company ** Fuad-03
+Maple V Release 3 for DOS and Windows ## Started, Getting ** Fuad-02
+Speech Synthesis And Recognition ## Holmes, J.N. ** Fuad-01
+Elementical neumerical analysis  ## Atkenson, Kendall ** Rabby-26
+Microcomputer interfacing: An experimental approach using the Z-80 ## Cavenor, Mike & Arnold, John ** No Number 
+The Essence of Neural Networks ## Callan, Robert. ** 65563
+The Essence of Artificial Intelligence ## Cawsey, Alison ** 65565
+Introduction to Bioinformatics  ## Attwood, Teresa K. … et. Al ** 65562
+Digital Image Using MATLAB ## Gonzalez, Rafeal C. … et. Al ** 65576
+Digital Image Using MATLAB ## Gonzalez, Rafeal C. … et. Al ** 65577
+Programming with C ## Gottfried, Byron S. & Chhabra, Jitender Kumer. ** 65578
+Data Communications and Networking ## Forouzan, Behrouz A. ** 65579
+Data Structures With C ## Lipscutz, Seymour  ** 65580
+Optical Fiber Communications: Principles and practice  ## Senior, John M. & Jamro, M. Yousif ** 65585
+Compilers: Principles, Techniques & Tools ## Aho, Alfred … et. Al ** 65584
+Digital Systems: Principles and Applications ## Tocci, Ronald & Widmer, Neal S. … et. Al ** 65586
+Digital processing of speech signals  ## Rabiner, L.R. & Schafer, R.W. ** 65590
+Introduction to Biotechnology ## Thieman, William J. & Palladino, Michael A. ** 65570
+Software Engineering A practitioner's Approach ## Pressman, Roger S. ** 65582
+Computer Graphics ## Xiang, Zhigang & Plastock, Roy A. … et. Al ** 65581
+Optical Fiber Communications ## Keiser, Gerd ** 65572
+Operating systems internals and design principles ## Stallings, William ** 65588
+Numerical Methods for Engineers  ## Chapra, Steven C. & Canale, Raymond P. ** 65574
+Discrete Mathematics and its applications with combinatorics and graph theory ## Rosen, Kenneth H. ** 65575
+Discovering genomics, proteomics and bioinformatics ## Campbell, A Malcolm & Heyer, Laurie J. ** 65564
+Introduction to Algorithms  ## Cormen, Thomas H. …et.al ** 19067
+Discrete Mathematics and Its Applications ## Rosen, Kenneth H. ** 34252

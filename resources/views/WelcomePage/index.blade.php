@@ -54,15 +54,19 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li>
+                    {{-- <li>
                         <a class="page-scroll" href="#services">Services</a>
-                    </li>
+                    </li> --}}
                     <li>
                         <a class="page-scroll" href="#team">About Us</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="/search">Search</a>
                     </li>
+
+                    {{-- <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li> --}}
                     @if (Auth::guest())
                             <li><a href="{{ url('/login') }}">Login</a></li>
                             {{-- <li><a href="{{ url('/register') }}">Register</a></li> --}}
@@ -166,7 +170,7 @@
         </div>
     </header>
 
-    <!-- Services Section -->
+    {{-- <!-- Services Section -->
     <section id="services">
         <div class="container">
             <div class="row">
@@ -202,7 +206,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
        
     <!-- Team Section -->
@@ -254,7 +258,7 @@
         </div>
     </section>
 
-        <!-- Contact Section -->
+    {{--     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -297,7 +301,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <footer>
         <div class="container">

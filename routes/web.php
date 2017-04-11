@@ -34,6 +34,8 @@ Route::POST('/registeruser', 'customregister@createuser');
 Route::GET('/addbook', 'addbookcontroller@index');
 Route::POST('/addbook', 'addbookcontroller@savethebook');
 
+Route::GET('/mystatus', 'HomeController@index');
+
 Route::GET('/status', 'statuscontroller@index');
 Route::POST('/status', 'statuscontroller@showstatus');
 
@@ -52,6 +54,6 @@ Route::GET('/usercreate', 'Helper@index');
 Route::GET('/expired', 'ExpiredPageController@index');
 Route::GET('/loanhistory', 'ExpiredPageController@loanhistory');
 
-
-
-
+Route::GET('/000', function () {
+    return view('basic2');
+});

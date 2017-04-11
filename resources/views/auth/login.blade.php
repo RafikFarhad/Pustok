@@ -40,7 +40,7 @@
                             <input type="regno" name="regno" value="{{ old('regno') }}" required autofocus>
                             @if ($errors->has('regno'))
                                 <span class="help-block">
-                                    Ther is no registration key.
+                                    There is no registration key.
                                 </span>
                             @endif
                         </label>
@@ -64,8 +64,8 @@
 
                 </div>
 
-                <a href="{{ url('/password/reset') }}" class="form-forgotten-password">Forgotten password &middot;</a>
-                <a href="{{ url('/register') }}" class="form-create-an-account">Create an account &rarr;</a>
+                {{-- <a href="{{ url('/password/reset') }}" class="form-forgotten-password">Forgotten password &middot;</a> --}}
+                {{-- <a href="{{ url('/register') }}" class="form-create-an-account">Create an account &rarr;</a> --}}
 
             </div>
 
