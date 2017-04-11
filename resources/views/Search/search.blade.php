@@ -44,7 +44,7 @@
                 <td>{{$item->name}}</td>
                 <td>{{$item->author}}</td>
                 <td>{{$item->publication}}</td>
-                <td>{{$item->edition}}</td>
+                <td>{{$item->edition==0?"-":$item->edition}}</td>
                 <td>{{ $item->loan_number==0?"Yes":"No" }}</td>
             </tr>
             @endforeach

@@ -1,15 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <head>
-
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>Form With Labels On Top</title>
-
-	<link rel="stylesheet" href="AddBook/assets/demo.css">
-	<link rel="stylesheet" href="AddBook/assets/form-labels-on-top.css">
+    <link rel="stylesheet" href="AddBook/assets/form-labels-on-top.css">
 
 </head>
 

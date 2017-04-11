@@ -54,6 +54,6 @@ Route::GET('/usercreate', 'Helper@index');
 Route::GET('/expired', 'ExpiredPageController@index');
 Route::GET('/loanhistory', 'ExpiredPageController@loanhistory');
 
-Route::GET('/000', function () {
-    return view('basic2');
-});
+// Route::GET('/aaa', function () {
+//     return view('basic2');
+// });

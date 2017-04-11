@@ -71,7 +71,7 @@
 			"file": "routes/web.php",
 			"settings":
 			{
-				"buffer_size": 1541,
+				"buffer_size": 1651,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -80,7 +80,7 @@
 			"file": "resources/views/Search/search.blade.php",
 			"settings":
 			{
-				"buffer_size": 1883,
+				"buffer_size": 1945,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -89,7 +89,7 @@
 			"file": "resources/views/layouts/app.blade.php",
 			"settings":
 			{
-				"buffer_size": 7019,
+				"buffer_size": 6681,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -99,7 +99,6 @@
 			"settings":
 			{
 				"buffer_size": 10169,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -108,7 +107,6 @@
 			"settings":
 			{
 				"buffer_size": 1942,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -372,15 +370,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1541,
+						"buffer_size": 1651,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								727,
-								727
+								0,
+								0
 							]
 						],
 						"settings":
@@ -400,15 +398,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1883,
+						"buffer_size": 1945,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								75,
-								75
+								0,
+								0
 							]
 						],
 						"settings":
@@ -430,15 +428,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7019,
+						"buffer_size": 6681,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								293,
-								293
+								0,
+								0
 							]
 						],
 						"settings":
@@ -467,8 +465,8 @@
 						"selection":
 						[
 							[
-								6366,
-								6366
+								0,
+								0
 							]
 						],
 						"settings":
@@ -476,7 +474,7 @@
 							"syntax": "Packages/C++/C++.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 315.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -495,8 +493,8 @@
 						"selection":
 						[
 							[
-								1942,
-								1942
+								0,
+								0
 							]
 						],
 						"settings":
@@ -507,7 +505,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 410.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,

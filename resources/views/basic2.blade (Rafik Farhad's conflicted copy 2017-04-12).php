@@ -17,30 +17,26 @@
 
       $bc = fgets($batch);
       $pos1 = strpos($bc, "##");
-      $name = substr($bc, 0, $pos1-1);
+      $name = substr($bc, 0, $pos1-2);
       $pos2 = strpos($bc, "**");
       $author = substr($bc, $pos1+3, $pos2-$pos1-4);
       $pos3 = strlen($bc);
       $an = substr($bc, $pos2+3, $pos3-$pos2-4);
-      if(!ctype_digit($an))
-      {
-        continue;
-      }
 
 
-      echo $name."   ".$author."   #".$an."***<br>"; 
+      echo $name."   ".$author."   ".$an."<br>"; 
 
-      DB::table('books')->insertGetId(
-                            [
-                            'id' => $an,
-                            'callnumber' => "" , 
-                            'name' => $name,
-                            'author' => $author,
-                            'publication' => "",
-                            'edition' => 0,
-                            'loan_number' => 0,
+      // DB::table('books')->insertGetId(
+      //                       [
+      //                       'id' => $an,
+      //                       'callnumber' => " " , 
+      //                       'name' => $name,
+      //                       'author' => $author,
+      //                       'publication' => " ",
+      //                       'edition' => 0,
+      //                       'loan_number' => 0,
 
-                            ]);
+      //                       ]);
       // $user = new App\User();
       // $user->password = Hash::make($reg);
       // $user->regno = $reg;
@@ -65,4 +61,3 @@
         ?>
     </body>
 </html>
-{{-- DELETE FROM `books` WHERE `books`.`id` = '40286'; --}}

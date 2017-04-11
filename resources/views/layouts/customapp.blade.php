@@ -102,8 +102,7 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
-                                <li><a href="{{ url('/search') }}">Search</a></li>
-                                <li><a href="{{ url('/home') }}">Home</a></li>
+                                
 
                                 <ul class="dropdown-menu" role="menu">
                                     <li>

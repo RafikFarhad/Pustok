@@ -84,21 +84,33 @@
                                         Root Access <span class="caret"></span>
                                     </a>
 
-                                    <ul class="dropdown-menu" role="menu">
-                                        
-                                        <li>
-                                            <a style="color:blue;" href="/lendbook">Lend Book</a>
-                                        </li>
-                                        <li>
-                                            <a style="color:blue;" href="/recievebook">Receive Book</a>
-                                        </li>
-                                        <li>
-                                            <a style="color:blue;" href="/status">Check User Status</a>
-                                        </li>
-                                        <li>
-                                            <a style="color:blue;" href="/addbook">Add Book</a>
-                                        </li>
-                                    </ul>
+                                    <ul class="dropdown-menu" role="button" style="color:blue;">
+
+                                    <li>
+                                        <a style="color:blue;" href="/lendbook">Lend Book</a>
+                                    </li>
+                                    <li>
+                                        <a style="color:blue;" href="/recievebook">Receive Book</a>
+                                    </li>
+                                    <li>
+                                        <a style="color:blue;" href="/status">Check User Status</a>
+                                    </li>
+                                    <li>
+                                        <a style="color:blue;" href="/addbook">Add Book</a>
+                                    </li>
+                                    <li>
+                                        <a style="color:blue;" href="/expired">Expired</a>
+                                    </li>
+                                    <li>
+                                        <a style="color:blue;" href="/loanhistory">Loan History</a>
+                                    </li>
+                                    <li>
+                                        <a style="color:blue;" href="/registeruser">Register</a>
+                                    </li>
+
+
+
+                                </ul>
 
                                 </li>
 
