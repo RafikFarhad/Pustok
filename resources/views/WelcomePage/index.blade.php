@@ -9,7 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Start Bootstrap Theme</title>
+    <title>IICT SEMINAR LIBRARY</title>
+    <link rel="shortcut icon" href="favicon.ico" />
 
     <!-- Bootstrap Core CSS -->
     <link href="WelcomePage/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -319,24 +320,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2016</span>
+                    <span class="copyright">Copyright &copy; SUST CSE 13</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        {{-- <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li> --}}
+                        <li><a href="fb.com/rafikfarhad"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        <li><a href="twitter.com/rafikfarhad"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
+                        {{-- <li><a href="#">Privacy Policy</a>
                         </li>
                         <li><a href="#">Terms of Use</a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
             </div>

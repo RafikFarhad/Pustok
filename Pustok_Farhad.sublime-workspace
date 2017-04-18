@@ -71,42 +71,17 @@
 			"file": "routes/web.php",
 			"settings":
 			{
-				"buffer_size": 1651,
+				"buffer_size": 1660,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resources/views/Search/search.blade.php",
+			"file": "resources/views/WelcomePage/index.blade.php",
 			"settings":
 			{
-				"buffer_size": 1945,
+				"buffer_size": 17768,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/layouts/app.blade.php",
-			"settings":
-			{
-				"buffer_size": 6681,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/Search/test.blade.php",
-			"settings":
-			{
-				"buffer_size": 10169,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/Search/temp2.php",
-			"settings":
-			{
-				"buffer_size": 1942,
 				"line_ending": "Unix"
 			}
 		}
@@ -159,21 +134,33 @@
 	},
 	"expanded_folders":
 	[
-		"/home/looser/Desktop/Pustok",
-		"/home/looser/Desktop/Pustok/app",
-		"/home/looser/Desktop/Pustok/app/Http",
-		"/home/looser/Desktop/Pustok/app/Http/Controllers",
-		"/home/looser/Desktop/Pustok/app/Http/Middleware",
-		"/home/looser/Desktop/Pustok/resources",
-		"/home/looser/Desktop/Pustok/resources/views",
-		"/home/looser/Desktop/Pustok/resources/views/LoanHistory",
-		"/home/looser/Desktop/Pustok/resources/views/RecieveBook",
-		"/home/looser/Desktop/Pustok/resources/views/Search",
-		"/home/looser/Desktop/Pustok/resources/views/Status",
-		"/home/looser/Desktop/Pustok/resources/views/layouts"
+		"/home/looser/Dropbox/farhad alif/Pustok",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/AddBook",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/LendBook",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/LoanHistory",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/RecieveBook",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/Search",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/Status",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/WelcomePage",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/layouts"
 	],
 	"file_history":
 	[
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/LendBook/lendbook.blade.php",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/AddBook/addbook.blade.php",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/Search/search.blade.php",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/Status/status.blade.php",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/RecieveBook/recievebook.blade.php",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/WelcomePage/index.blade.php",
+		"/home/looser/Dropbox/farhad alif/Pustok/serve",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/LoanHistory/loanhistory.blade.php",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/layouts/customapp.blade.php",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/basic2.blade.php",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/Search/temp2.php",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/Search/test.blade.php",
+		"/home/looser/Dropbox/farhad alif/Pustok/resources/views/layouts/app.blade.php",
 		"/home/looser/Desktop/Pustok/resources/views/home.blade.php",
 		"/home/looser/Desktop/Pustok/app/Http/Controllers/HomeController.php",
 		"/home/looser/Desktop/Pustok/resources/views/Search/search.blade.php",
@@ -302,6 +289,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\">\n",
 			"'",
 			"'\n",
 			",\n",
@@ -370,15 +358,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1651,
+						"buffer_size": 1660,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1591,
+								1591
 							]
 						],
 						"settings":
@@ -386,27 +374,27 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "resources/views/Search/search.blade.php",
+					"file": "resources/views/WelcomePage/index.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1945,
+						"buffer_size": 17768,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								369,
+								369
 							]
 						],
 						"settings":
@@ -420,95 +408,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "resources/views/layouts/app.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6681,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "resources/views/Search/test.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10169,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "resources/views/Search/temp2.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1942,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
