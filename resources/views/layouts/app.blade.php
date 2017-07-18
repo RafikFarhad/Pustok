@@ -18,7 +18,7 @@
     <style>
     body  {
         background-image: url("goback.jpg");
-        background-color: #cccccc;
+        background-color: #0E6655;
     }
     </style>
 

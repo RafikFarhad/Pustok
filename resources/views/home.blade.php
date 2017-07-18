@@ -4,28 +4,55 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="/css/allcss.css">
+<style type="text/css">
+    #diva{
+        text-align: center;
+        font-size: 25px;
+        color: #2518A7;
+        border-radius:17px;
+        border:1px solid #1f2f47;
 
-</head>>
+    }
+    #dasha{
+        text-align: center;
+        font-size: 25px;
+        color: #2518A7;
+        border-radius:17px;
+        border:1px solid #1f2f47;
+
+    }
+    #paragraph{
+        font-size: 35px;
+        color: #2518A7;
+        font-family: bold;
+
+    }
 
 
 
-<div class="container" class="myDiv"  >
+</style>
+
+</head>
+
+
+
+<div class="container"  >
 
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
+                <div id="dasha" class="panel-heading">Dashboard</div>
 
-                <div class="panel-body">
+                <div class="panel-body" id="diva" >
                     Welcome {{Auth::user()->name}}! </br>
-                    Happy to see you again !
+                    
                 </div>
                 <!-- For borrowed book  -->
                 <div class='container'>
 
                     @if(Auth::user()->user_type!='normal')
-                    <div class='container'>
-                        <h2>Hello Admin</h2>
+                    <div class='container' >
+                        <p id="paragraph"> Hello Admin </p>
                     </div>
                     <div class="links">
 
