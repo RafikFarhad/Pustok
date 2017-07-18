@@ -9,9 +9,20 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>IICT Seminar Library</title>
+    
+
 
     <!-- Styles -->
-    <link href="/css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/app.css" >
+    
+    <style>
+    body  {
+        background-image: url("goback.jpg");
+        background-color: #cccccc;
+    }
+    </style>
+
+
 
     <!-- Scripts -->
     <script>
@@ -22,23 +33,119 @@
     </head>
     <body>
         <div id="app">
-            <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
+            <nav class="cl-effect-11">
+                <div class="container">
+                    <div class="navbar-header">
+                        <!-- Collapsed Hamburger -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Branding Image -->
+                        <a class="navbar-brand" href="{{ url('/') }}">
+                            IICT SEMINAR LIBRARY
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="app-navbar-collapse">
+                        <!-- Left Side Of Navbar -->
+                        <ul class="nav navbar-nav">
+                            &nbsp;
+                        </ul>
+                        <!-- Right Side Of Navbar -->
+                        <ul class="nav navbar-nav navbar-right">
+                            <!-- Authentication Links -->
+                            @if (Auth::guest())
+                            <li><a href="{{ url('/login') }}">Login</a></li>
+                            <li><a href="{{ url('/register') }}">Register</a></li>
+                            @else
+                            @if(Auth::user()->user_type!='normal')
+                            <li>
+                                <a href="{{ url('/home') }}">
+                                    Home
+                                </a>
+                            </li>
+                            <li><a href="{{ url('/search') }}">Search</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                    Root Access <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="/lendbook">Lend Book</a>
+                                    </li>
+                                    <li>
+                                        <a href="/recievebook">Receive Book</a>
+                                    </li>
+                                    <li>
+                                        <a href="/status">Check User Status</a>
+                                    </li>
+                                    <li>
+                                        <a href="/addbook">Add Book</a>
+                                    </li>
+                                    <li>
+                                        <a href="/expired">Expired</a>
+                                    </li>
+                                    <li>
+                                        <a href="/loanhistory">Loan History</a>
+                                    </li>
+                                    <li>
+                                        <a href="/registeruser">Register</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="{{ url('/logout') }}"
+                                        onclick="event.preventDefault();
+                                        document.getElementById('logout-form').submit();">
+                                        Logout
+                                    </a>
+                                    <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
+                                        {{ csrf_field() }}
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+                        @else
+                        <li><a href="{{ url('/search') }}">Search</a></li>
+                        <li><a href="{{ url('/home') }}">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                {{ Auth::user()->name }} <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                               <li>
+                                <a href="{{ url('/home') }}">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ url('/logout') }}"
+                                onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">
+                                Logout
+                            </a>
+                            <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
+                                {{ csrf_field() }}
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+                @endif
+                @endif
+            </ul>
+        </div>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
-    </ul>
-  </div>
 </nav>
-
 @yield('content')
 </div>
-
 <!-- Scripts -->
 <script src="/js/app.js"></script>
 </body>

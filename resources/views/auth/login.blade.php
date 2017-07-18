@@ -9,8 +9,8 @@
 
 	<title>Pustok - Login Form</title>
 
-	<link rel="stylesheet" href="Login/assets/demo.css">
-	<link rel="stylesheet" href="Login/assets/form-login.css">
+	
+	<link rel="stylesheet" href="AddBook/assets/form-labels-on-top.css">
 
 </head>
 
@@ -20,6 +20,7 @@
                         IICT SEMINAR LIBRARY
                     </a>
     </header>
+    
     <div class="main-content">
         <link href="/css/app.css" rel="stylesheet">
         <!-- You only need this form and the form-login.css -->

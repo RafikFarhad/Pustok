@@ -2,6 +2,8 @@
 @section('content')
 <head>
 
+    <link rel="stylesheet" href="AddBook/assets/form-labels-on-top.css">
+    
 </head>
 
 

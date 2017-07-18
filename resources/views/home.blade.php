@@ -1,7 +1,15 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/allcss.css">
+
+</head>>
+
+
+
+<div class="container" class="myDiv"  >
 
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
@@ -17,31 +25,27 @@
 
                     @if(Auth::user()->user_type!='normal')
                     <div class='container'>
-                        <h3>Hello Admin</h3>
+                        <h2>Hello Admin</h2>
                     </div>
                     <div class="links">
 
-                        <li>
-                            <a href="{{ url('/lendbook') }}">Lend Book</a>
-                        </li>
-                        <li>
-                            <a href="{{ url('/recievebook') }}">Receive Book</a>
-                        </li>
-                        <li>
-                            <a href="{{ url('/status') }}">Check User Status</a>
-                        </li>
-                        <li>
-                            <a href="{{ url('/addbook') }}">Add Book</a>
-                        </li>
-                        <li>
-                            <a href="/expired">Expired</a>
-                        </li>
-                        <li>
-                            <a href="/loanhistory">Loan History</a>
-                        </li>
-                        <li>
-                            <a href="/registeruser">Register</a>
-                        </li>
+                        
+                            <a class="myButton" href="{{ url('/lendbook') }}">Lend Book</a>
+                        
+                        <br>
+                            <a class="myButton" href="{{ url('/recievebook') }}">Receive Book</a>
+                        <br>
+                            <a class="myButton" href="{{ url('/status') }}">Check User Status</a>
+
+                        <br>
+                            <a class="myButton" href="{{ url('/addbook') }}">Add Book</a>
+                        <br>
+                            <a class="myButton" href="/expired">Expired</a>
+                        <br>
+                            <a class="myButton" href="/loanhistory">Loan History</a>
+                        <br>
+                            <a class="myButton" href="/registeruser">Register</a>
+                       
                     </div>
 
                     @else

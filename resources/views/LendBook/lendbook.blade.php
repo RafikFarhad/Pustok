@@ -1,9 +1,12 @@
 @extends('layouts.app')
 @section('content')
-<head>
-    <link rel="stylesheet" href="AddBook/assets/form-labels-on-top.css">
 
+<head>
+
+    <link rel="stylesheet" href="AddBook/assets/form-labels-on-top.css">
+    
 </head>
+
 
 
     <div class="main-content">
