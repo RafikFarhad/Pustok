@@ -22,6 +22,8 @@
 </style>
 
         <form class="form-horizontal" method="POST" action="/lendbook">
+
+        {{csrf_field()}}
               <fieldset>
                 <legend class="tet">Lend Book</legend>
                 <div class="form-group">

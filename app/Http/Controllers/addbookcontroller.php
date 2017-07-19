@@ -18,7 +18,7 @@ class addbookcontroller extends Controller
     public function savethebook(Request $request)
     {
     	Book::create($request->all());
-    	return view('AddBook/addbook');
+    	return view('AddBook/addbook')->with('msg', "Book is saved!");
     }
 }
 

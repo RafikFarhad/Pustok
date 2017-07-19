@@ -146,7 +146,7 @@
 </nav>
 @yield('content')
 </div>
-<footer class="navbar navbar-default navbar-static-bottom " style="text-align: center;  top: 500px;">
+<footer class="navbar navbar-default navbar-static-bottom " style="text-align: center;  top: 500px; ">
   <p>SUST CSE 13</p>
 <p>Submitted by: <a href="https://www.facebook.com/alif.alamin1">Alif Al Amin</a> &  <a href="https://www.facebook.com/rafikfarhad">Rafikul Islam Farhad</p>
 </footer>
