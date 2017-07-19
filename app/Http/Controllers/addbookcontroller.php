@@ -12,6 +12,7 @@ class addbookcontroller extends Controller
     /// for  Main view 
     public function index()
     {
+        // return 'reched';
         return view('AddBook/addbook');
     }
     public function savethebook(Request $request)

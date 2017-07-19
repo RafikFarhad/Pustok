@@ -1,10 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<head>
 
-	<link rel="stylesheet" href="AddBook/assets/form-labels-on-top.css">
-
-</head>
 
 
     <div class="main-content">
@@ -82,6 +78,7 @@
             <hidden name="loan_number" value="0" />
 
         </form>
+        
 
         @else
 
