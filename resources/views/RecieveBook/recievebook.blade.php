@@ -6,22 +6,21 @@
 
     <div class="container">
 
-
-
-
-        <!-- You only need this form and the form-labels-on-top.css -->
-
         @if(Auth::user()->user_type!='normal')
         <style type="text/css">
+
+            form{
+                  color: white;
+                }
+
             .form-group {
                 margin: 20px;
             }
 
             .tet{
-                text-align: center;
+                color: white;
+                margin-left: 300px;
             }
-
-
         </style>
 
 
@@ -31,52 +30,28 @@
               <fieldset>
                 <legend class="tet">Recieve Book</legend>
                 <div class="form-group">
-                  <label for="inputEmail" class="col-lg-5 control-label">Book Access No:</label>
+                  <label for="inputEmail" class="col-lg-3 control-label">Book Access No:</label>
                   <div class="col-lg-5">
                     <input type="text" name="book_id" class="form-control" id="inputEmail" placeholder="Book id Number">
                   </div>
                   </div>
 
                 <div class="form-group">
-                  <div class="col-lg-12 col-lg-offset-5">
+                  <div class="col-lg-12 col-lg-offset-3">
                     <button type="submit" class="btn btn-primary">Receive</button>
                   </div>
                 </div>
               </fieldset>
             </form>
 
-
-
-
-
-        
-          <!--   <form class="form-labels-on-top" method="POST" action="/recievebook">
-
-                {{ csrf_field() }}
-
-                <div class="form-title-row">
-                    <h1>Recieve Book</h1>
-                </div>
-
-                
-                <div class="form-row">
-                    <label>
-                        <span>Book Access No: </span>
-                        <input type="text" name="book_id" required="">
-                    </label>
-                </div>
-
-                <div class="form-row">
-                    <button type="submit">Book Recieved</button>
-                </div>
-
-            </form> -->
+         
 
             @if($request!=NULL)
                 
                 <!-- TEST -->
 
-                <h2> request for recieved </h2>
+                <h2> Request for recieved </h2>
+                <h2> Book ID: {{$request->book_id}} </h2>
 
                 <!-- BOOK-->
                 <?php
@@ -129,6 +104,7 @@
                         }
                     ?>
 
+                    <h2> User: {{$temp_user->regno}} </h2>
                     <h2> Book Recieved </h2>
                     @endif
 

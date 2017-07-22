@@ -3,11 +3,11 @@
 <head>
 
   <link rel="stylesheet" href="css/ex.css">
-  <link rel="stylesheet" href="css/ex.css">
+  
 
 </head>
 
-<body>
+<body style="background-color: #fff080">
 
   <div class="wrapper">
 
@@ -23,6 +23,10 @@
         <div class="cell">
           Book Name
         </div>
+        <div class="cell">
+          Book ID
+        </div>
+
         <div class="cell">
           Expiry Date
         </div>
@@ -57,6 +61,10 @@
         <div class="cell">
           {{ $book->name }}
         </div>
+        <div class="cell">
+          {{ $book->id }}
+        </div>
+
         <div class="cell">
           {{ $loan->expiry_date }}
         </div>

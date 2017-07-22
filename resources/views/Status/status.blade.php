@@ -1,8 +1,5 @@
 @extends('layouts.app')
 @section('content')
-
-
-
 <div class="container">
 
     <!-- You only need this form and the form-labels-on-top.css -->
@@ -10,12 +7,17 @@
     @if(Auth::user()->user_type!='normal')
 
     <style type="text/css">
+            form{
+              color: white;
+            }
+
             .form-group {
                 margin: 20px;
             }
 
             .tet{
-                text-align: center;
+                color: white;
+                margin-left: 300px;
             }
         </style>
 
@@ -25,52 +27,19 @@
               <fieldset>
                 <legend class="tet">Check Status</legend>
                 <div class="form-group">
-                  <label for="inputEmail" class="col-lg-5 control-label">Registration No:</label>
+                  <label for="inputEmail" class="col-lg-3 control-label">Registration No:</label>
                   <div class="col-lg-5">
                     <input type="text" name="regno" class="form-control" id="inputEmail" placeholder="Registration Number">
                   </div>
                   </div>
 
                 <div class="form-group">
-                  <div class="col-lg-12 col-lg-offset-5">
+                  <div class="col-lg-12 col-lg-offset-3">
                     <button type="submit" class="btn btn-primary">Check Status</button>
                   </div>
                 </div>
               </fieldset>
             </form>
-
-
-
-
-
-
-
-
-    <!-- <form class="form-horizontal" method="POST" action="/status">
-
-        {{ csrf_field() }}
-
-
-
-
-        <div class="form-title-row">
-            <h1>Check Status</h1>
-        </div>
-
-        <div class="form-row">
-            <label>
-                <span>Registration No:</span>
-                <input type="text" name="regno" required="">
-
-            </label>
-        </div>
-
-
-        <div class="form-row">
-            <button type="submit">Check</button>
-        </div>
-
-    </form> -->
 
     @if($request!=NULL)
         <div class='container' allignment="center">
