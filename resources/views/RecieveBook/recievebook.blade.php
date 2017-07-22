@@ -1,28 +1,11 @@
-@extends('layouts.app')
+@extends('Admin.header')
 @section('content')
 
+    <div class="col-md-10 col-md-offset-1" style="margin-top: 50px;">
 
-
-
-    <div class="container">
-
-
-
-
-        <!-- You only need this form and the form-labels-on-top.css -->
 
         @if(Auth::user()->user_type!='normal')
-        <style type="text/css">
-            .form-group {
-                margin: 20px;
-            }
 
-            .tet{
-                text-align: center;
-            }
-
-
-        </style>
 
 
             <form class="form-horizontal" method="POST" action="/recievebook">
@@ -45,38 +28,11 @@
               </fieldset>
             </form>
 
-
-
-
-
-        
-          <!--   <form class="form-labels-on-top" method="POST" action="/recievebook">
-
-                {{ csrf_field() }}
-
-                <div class="form-title-row">
-                    <h1>Recieve Book</h1>
-                </div>
-
-                
-                <div class="form-row">
-                    <label>
-                        <span>Book Access No: </span>
-                        <input type="text" name="book_id" required="">
-                    </label>
-                </div>
-
-                <div class="form-row">
-                    <button type="submit">Book Recieved</button>
-                </div>
-
-            </form> -->
-
             @if($request!=NULL)
                 
                 <!-- TEST -->
 
-                <h2> request for recieved </h2>
+                <h2> Request for book receive </h2>
 
                 <!-- BOOK-->
                 <?php
@@ -87,16 +43,16 @@
                 <!-- VERIFY THE BOOK -->
                 
                 @if($temp_book==NULL)
-                    <h2> No Book for this serial number </h2>
+                    <h2 style="color: red"> No Book for this serial number. </h2>
                 @else
                     <?php
                         $temp_loan = DB::table('loans')->where('bookid', $temp_book->id)->where('retturn', 1)->first();
                     ?>
                     <!-- CHECK IF THAT BOOK IS TAKEN OR NOT -->
                     @if( $temp_loan==NULL)
-                        <h2> This book is not taken any students </h2>
+                        <h2 style="color: red"> This book is not taken any students </h2>
                     @elseif($temp_loan->retturn==0)
-                        <h2> This book is not taken any students </h2>                    
+                        <h2 style="color: red"> This book is not taken any students </h2>
                     <!-- OTHERWISE RECIEVE THIS BOOK -->
                     @else
                     <?php
@@ -129,7 +85,13 @@
                         }
                     ?>
 
-                    <h2> Book Recieved </h2>
+                    <h2 style="color: green"> Book Recieved Successfully :)
+                        <br>
+                        Book Name: {{$temp_book->name}}
+                        <br>
+                        Book ID: {{$temp_book->id}}
+
+                    </h2>
                     @endif
 
                 @endif

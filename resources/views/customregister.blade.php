@@ -1,7 +1,7 @@
-@extends('layouts.app')
+@extends('Admin.header')
 
 @section('content')
-<div class="container">
+ <div class="col-md-10 col-md-offset-1" style="margin-top: 50px;">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">

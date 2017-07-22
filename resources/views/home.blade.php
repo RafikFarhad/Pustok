@@ -1,53 +1,27 @@
-@extends('layouts.app')
+@extends('Admin.header')
 
 @section('content')
 
-
-<link rel="stylesheet" type="text/css" href="/css/allcss.css">
-<style type="text/css">
-    #diva{
-        text-align: center;
-        font-size: 25px;
-        color: #2518A7;
-        margin-top: 20px;
-    }
-    #dasha{
-        text-align: center;
-        font-size: 25px;
-        color: #2518A7;
-        border-radius:1px;
-        border:1px solid #1f2f47;
-
-    }
-    #paragraph{
-        font-size: 35px;
-        color: #2518A7;
-        font-family: bold;
-
-    }
-
-
-
-</style>
-
-<div class="container" style="margin-top: 70px" >
-    <div class="col-md-3">
-        @include('layouts.sidebar')
+    <div class="col-md-offset-1" style="margin-top: 50px;">
+        <h1>Hello, {{Auth::user()->name}}</h1>
+        <h3>Welcome to SUST IICT Seminar Library</h3>
     </div>
-    <div class="col-md-9">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div id="dasha" class="panel-heading">Dashboard</div>
-
-                <div class="panel-body" id="diva" >
-                    Welcome {{Auth::user()->name}}! </br>
-                    
-                </div>
-                <!-- For borrowed book  -->
-                <!--  -->
-
-            </div>
+    <hr style="color: #0e2e42">
+    @if(Auth::user()->user_type=='normal')
+        <div class="col-md-offset-1" style="margin-top: 50px;">
+            @if($single_loan1!=null)
+                <h3>Book Name: {{$book1->name}}</h3>
+                <h3>Issue Date: {{$single_loan1->date}}</h3>
+                <h3>Expiry Date: {{$single_loan1->expiry_date}}</h3>
+                <hr>
+            @endif
+            @if($single_loan2!=null)
+                <h3>Book Name: {{$book2->name}}</h3>
+                <h3>Issue Date: {{$single_loan2->date}}</h3>
+                <h3>Expiry Date: {{$single_loan2->expiry_date}}</h3>
+                <hr>
+            @endif
         </div>
-    </div>
-</div>
+
+    @endif
 @endsection

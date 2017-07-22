@@ -34,7 +34,7 @@ Route::POST('/registeruser', 'customregister@createuser');
 Route::GET('/addbook', 'addbookcontroller@index');
 Route::POST('/addbook', 'addbookcontroller@savethebook');
 
-Route::GET('/mystatus', 'HomeController@index');
+Route::GET('/mystatus', 'HomeController@index2');
 
 Route::GET('/status', 'statuscontroller@index');
 Route::POST('/status', 'statuscontroller@showstatus');

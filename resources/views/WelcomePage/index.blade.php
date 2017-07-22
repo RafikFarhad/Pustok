@@ -143,7 +143,7 @@
 
                                     <ul class="dropdown-menu" role="menu">
                                          <li>
-                                            <a href="{{ url('/mystatus') }}">
+                                            <a href="{{ url('/mystatus') }}" style="color: #0d3625">
                                                 My Status
                                             </a>
                                         </li>
