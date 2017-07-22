@@ -1,87 +1,50 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
 
-    <div class="row">
+
+<link rel="stylesheet" type="text/css" href="/css/allcss.css">
+<style type="text/css">
+    #diva{
+        text-align: center;
+        font-size: 25px;
+        color: #2518A7;
+        margin-top: 20px;
+    }
+    #dasha{
+        text-align: center;
+        font-size: 25px;
+        color: #2518A7;
+        border-radius:1px;
+        border:1px solid #1f2f47;
+
+    }
+    #paragraph{
+        font-size: 35px;
+        color: #2518A7;
+        font-family: bold;
+
+    }
+
+
+
+</style>
+
+<div class="container" style="margin-top: 70px" >
+    <div class="col-md-3">
+        @include('layouts.sidebar')
+    </div>
+    <div class="col-md-9">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
+                <div id="dasha" class="panel-heading">Dashboard</div>
 
-                <div class="panel-body">
+                <div class="panel-body" id="diva" >
                     Welcome {{Auth::user()->name}}! </br>
-                    Happy to see you again !
+                    
                 </div>
                 <!-- For borrowed book  -->
-                <div class='container'>
-
-                    @if(Auth::user()->user_type!='normal')
-                    <div class='container'>
-                        <h3>Hello Admin</h3>
-                    </div>
-                    <div class="links">
-
-                        <li>
-                            <a href="{{ url('/lendbook') }}">Lend Book</a>
-                        </li>
-                        <li>
-                            <a href="{{ url('/recievebook') }}">Receive Book</a>
-                        </li>
-                        <li>
-                            <a href="{{ url('/status') }}">Check User Status</a>
-                        </li>
-                        <li>
-                            <a href="{{ url('/addbook') }}">Add Book</a>
-                        </li>
-                        <li>
-                            <a href="/expired">Expired</a>
-                        </li>
-                        <li>
-                            <a href="/loanhistory">Loan History</a>
-                        </li>
-                        <li>
-                            <a href="/registeruser">Register</a>
-                        </li>
-                    </div>
-
-                    @else
-                    <div class='container'>
-                        <div class='page-header'>
-                        
-                            @if(($all["single_loan1"]==NULL ) && ($all["single_loan2"]==NULL ))
-                            <h2> Wow, you have nothing from us! </h2>
-                            
-                            @else
-                            <h2> All Books You have borrowed: </h2>
-                            <?php
-                            
-                            if($all["single_loan1"]!=NULL)
-                            {
-                                $book = $all["book1"];
-                                $single_loan = $all["single_loan1"];
-                            
-                                echo $book->name . "<br>" . $book->author . "<br>";
-                                echo "Issue date: ". $single_loan->date;
-                                echo "<br> Expiry date: ". $single_loan->expiry_date. "<br>". "<br>";
-                            }
-                            if($all["single_loan1"]!=NULL)
-                            {
-                                $book = $all["book1"];
-                                $single_loan = $all["single_loan1"];
-                                
-                                echo $book->name . "<br>" . $book->author . "<br>";
-                                echo "Issue date: ". $single_loan->date;
-                                echo "<br> Expiry date: ". $single_loan->expiry_date;
-                            }
-                            ?>
-                            @endif
-                        </div>
-                    </div>
-
-
-                    
-                    @endif
-                </div>
+                <!--  -->
 
             </div>
         </div>

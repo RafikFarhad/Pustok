@@ -1,54 +1,62 @@
 @extends('layouts.app')
 @section('content')
-<head>
-    <link rel="stylesheet" href="AddBook/assets/form-labels-on-top.css">
-
-</head>
 
 
-    <div class="main-content">
+
+
+    <div class="container">
 
         <!-- You only need this form and the form-labels-on-top.css -->
 
         @if(Auth::user()->user_type!='normal')
+<style type="text/css">
+    .form-group {
+        margin: 20px;
+    }
 
-        
-            <form class="form-labels-on-top" method="POST" action="/lendbook">
+    .tet{
+        text-align: center;
+    }
 
-                {{ csrf_field() }}
 
-                <div class="form-title-row">
-                    <h1>Lend Book</h1>
+</style>
+
+        <form class="form-horizontal" method="POST" action="/lendbook">
+
+        {{csrf_field()}}
+              <fieldset>
+                <legend class="tet">Lend Book</legend>
+                <div class="form-group">
+                  <label for="inputEmail" class="col-lg-5 control-label">Borrower Registration Number:</label>
+                  <div class="col-lg-5">
+                    <input type="text" name="regno" class="form-control" id="inputEmail" placeholder="Borrower Registration Number">
+                  </div>
+                  </div>
+
+
+                  <div class="form-group">
+                  <label for="inputb" class="col-lg-5 control-label">Book Access No: </label>
+                  <div class="col-lg-5">
+                    <input type="text" name="book_id" id="inputb" class="form-control" placeholder="Book ID">
+                  </div>
+</div>
+
+                  <div class="form-group">
+                  <label for="inputl" class="col-lg-5 control-label">Number of days: </label>
+                  <div class="col-lg-5">
+                    <input type="number" name="number_of_day" id="inputl" class="form-control"  value="5" min="1" max="30">
+                  </div>
+
+</div>
+
+                
+                
+                <div class="form-group">
+                  <div class="col-lg-12 col-lg-offset-5">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
                 </div>
-
-                <div class="form-row">
-                    <label>
-                        <span>Borrower Registration Number</span>
-                        <input type="text" name="regno" required="">
-                        
-                    </label>
-                </div>
-
-                <div class="form-row">
-                    <label>
-                        <span>Book Access No: </span>
-                        <input type="text" name="book_id" required="">
-                    </label>
-                </div>
-
-                <div class="form-row">
-                    <label>
-                        <span>Number of days: </span>
-                        <input type="number" name="number_of_day" required="" value="5">
-                    </label>
-                </div>
-
-
-
-                <div class="form-row">
-                    <button type="submit">Add</button>
-                </div>
-
+              </fieldset>
             </form>
 
             @if($request!=NULL)

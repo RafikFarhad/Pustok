@@ -1,20 +1,56 @@
 @extends('layouts.app')
 @section('content')
-<head>
-
-    <link rel="stylesheet" href="AddBook/assets/form-labels-on-top.css">
-	
-</head>
 
 
-    <div class="main-content">
+
+
+    <div class="container">
+
+
+
 
         <!-- You only need this form and the form-labels-on-top.css -->
 
         @if(Auth::user()->user_type!='normal')
+        <style type="text/css">
+            .form-group {
+                margin: 20px;
+            }
+
+            .tet{
+                text-align: center;
+            }
+
+
+        </style>
+
+
+            <form class="form-horizontal" method="POST" action="/recievebook">
+
+            {{csrf_field()}}
+              <fieldset>
+                <legend class="tet">Recieve Book</legend>
+                <div class="form-group">
+                  <label for="inputEmail" class="col-lg-5 control-label">Book Access No:</label>
+                  <div class="col-lg-5">
+                    <input type="text" name="book_id" class="form-control" id="inputEmail" placeholder="Book id Number">
+                  </div>
+                  </div>
+
+                <div class="form-group">
+                  <div class="col-lg-12 col-lg-offset-5">
+                    <button type="submit" class="btn btn-primary">Receive</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+
+
+
+
 
         
-            <form class="form-labels-on-top" method="POST" action="/recievebook">
+          <!--   <form class="form-labels-on-top" method="POST" action="/recievebook">
 
                 {{ csrf_field() }}
 
@@ -34,7 +70,7 @@
                     <button type="submit">Book Recieved</button>
                 </div>
 
-            </form>
+            </form> -->
 
             @if($request!=NULL)
                 
