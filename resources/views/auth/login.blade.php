@@ -3,12 +3,12 @@
 
 
 <style type="text/css">
-    form{
-        color: white;
-    }
-
+    
     .form-group {
         margin: 20px;
+    }
+    .main-content{
+        color: white;
     }
 
     .tet{
@@ -16,7 +16,7 @@
         color: white;
     }
 </style>
-<div class="main-content">
+<div  class="main-content">
 
     <div class="container">
 
